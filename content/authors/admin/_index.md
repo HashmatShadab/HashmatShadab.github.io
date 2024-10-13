@@ -54,6 +54,8 @@ highlight_name: true
 website: ""
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include
-distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops
-self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Hashmat Shadab is a PhD candidate at Mohamed Bin Zayed University of Artificial Intelligence (MBZUAI) in Abu Dhabi, UAE,
+where he is affiliated with the IVAL lab. His research focuses on the Safety and Reliability of AI, with a particular 
+emphasis on understanding, evaluating, and enhancing the robustness of vision-based models. Hashmat previously completed 
+his master's degree in Computer Vision at MBZUAI and continues to explore critical challenges in AI robustness at the 
+intersection of self-supervision, adversarial defenses, and out-of-distribution generalization.
