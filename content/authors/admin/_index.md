@@ -1,31 +1,32 @@
 ---
 # Display name
-title: 吳健雄
+title: Hashmat Shadab Malik
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Hashmat Shadab
+last_name: Malik
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🔍
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: PhD Candidate in Computer Vision
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Mohamed Bin Zayed University of Artificial Intelligence
+    url: https://mbzuai.ac.ae/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include the safety and reliability of AI,
+  with a focus on the robustness of vision-based models, adversarial defenses, and out-of-distribution generalization.
 
 # Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
