@@ -3,8 +3,7 @@
     --primary-color: #333;
     --secondary-color: #ff9800;
     --header-bg-image: url('header-background.jpg');
-    --header-text-color: white;
-    --font-family: 'Arial, sans-serif';
+    --header-text-color: rgba(225, 241, 69, 0.96);
 }
 
 /* General Reset */
@@ -23,45 +22,85 @@ body {
 /* Header Section */
 header {
     background: var(--header-bg-image) no-repeat center center/cover;
-    height: 300px;
+    height: 30vh; /* Full viewport height for dynamic resizing */
     position: relative;
-    text-align: center;
+    text-align: left;
     color: var(--header-text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Optional: Add overlay to make text more readable over the image */
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent overlay */
+    background-blend-mode: overlay;
+}
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center; /* Centers the block of content horizontally */
+    text-align: left; /* Aligns the text to the left */
+    max-width: 600px; /* Optional: restrict the content width */
+    margin: 0 auto; /* Centers the content horizontally */
 }
 
-.header-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+header h1, header h2, header h3 {
+    width: 100%; /* Make sure each header spans the full width */
 }
 
 header h1 {
     font-size: 3rem;
+    font-weight: 10;
     margin-bottom: 10px;
 }
 
 header h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-weight: 10;
     margin-bottom: 20px;
 }
 
 header h3 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 10;
     margin-bottom: 10px;
+}
+
+
+/* Media query to adjust font size for smaller screens */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header h2 {
+        font-size: 1.5rem;
+    }
+
+    header h3 {
+        font-size: 1.2rem;
+    }
+}
+
+.social-links {
+    display: flex;
+    justify-content: flex-start; /* Left align the icons */
+    margin-top: 20px;
+    width: 100%; /* Ensure it takes up full width for alignment purposes */
 }
 
 .social-links a {
     margin: 0 10px;
     color: var(--header-text-color);
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    transition: color 0.3s ease, transform 0.3s ease; /* Add smooth scaling on hover */
 }
 
 .social-links a:hover {
     color: var(--secondary-color);
+    transform: scale(1.1); /* Slightly increase icon size on hover */
 }
 
-/* About Section */
+
 /* About Section */
 .about {
     display: flex;
@@ -111,7 +150,6 @@ header h3 {
 }
 
 
-/* Publications Section */
 /* Publications Section */
 .publications {
     background-color: #f0f4f8; /* Light blue-gray background */
