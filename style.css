@@ -118,14 +118,6 @@ header h3 {
     padding: 40px;
 }
 
-/*.publications h2 {*/
-/*    color: #1a535c;*/
-/*    font-family: 'Lora', serif;*/
-/*    font-size: 32px;*/
-/*    text-align: center;*/
-/*    margin-bottom: 40px;*/
-/*    letter-spacing: 1px;*/
-/*}*/
 .publications h2 {
     font-family: 'Raleway', sans-serif; /* Thin, modern sans-serif font */
     font-weight: 300; /* Thinner font weight */
@@ -151,12 +143,6 @@ header h3 {
     transform: translateY(-10px);
 }
 
-/*.publication-item h3 {*/
-/*    color: #0d3b66;*/
-/*    font-family: 'Merriweather', serif;*/
-/*    font-size: 32px;*/
-/*    margin-bottom: 10px;*/
-/*}*/
 
 .publication-item h3 {
     font-family: 'Caveat', cursive; /* Sketch/handwritten-style font */
@@ -167,16 +153,10 @@ header h3 {
 }
 
 
-/*.publication-item p {*/
-/*    color: #3d5a80;*/
-/*    font-family: 'Open Sans', sans-serif;*/
-/*    font-size: 18px;*/
-/*    margin-bottom: 15px;*/
-/*}*/
 .publication-item p  {
     font-family: 'Caveat', cursive; /* Sketch/handwritten-style font */
     font-size: 16px;
-    color: #e63946; /* Vibrant, sketch-like color */
+    color: #5a5851; /* Vibrant, sketch-like color */
     letter-spacing: 1px; /* Slight spacing for handwritten feel */
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow for sketch effect */
 }
@@ -186,4 +166,19 @@ header h3 {
     width: 100%;
     height: auto;
     border-radius: 8px;
+}
+
+.publication-item .summary {
+    background-color: #f9f9f9; /* Light background for the summary */
+    padding: 10px 15px;
+    margin-top: 15px;
+    border-left: 4px solid #0d3b66; /* Left border for emphasis */
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.publication-item .summary p {
+    margin: 0;
+    padding: 0;
 }
