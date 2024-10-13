@@ -1,0 +1,97 @@
+/* Constants */
+:root {
+    --primary-color: #333;
+    --secondary-color: #ff9800;
+    --header-bg-image: url('header-background.jpg');
+    --header-text-color: white;
+    --font-family: 'Arial, sans-serif';
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: var(--font-family);
+    color: var(--primary-color);
+}
+
+/* Header Section */
+header {
+    background: var(--header-bg-image) no-repeat center center/cover;
+    height: 300px;
+    position: relative;
+    text-align: center;
+    color: var(--header-text-color);
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: var(--header-text-color);
+    font-size: 1.5rem;
+}
+
+.social-links a:hover {
+    color: var(--secondary-color);
+}
+
+/* About Section */
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.profile-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.bio {
+    max-width: 600px;
+    font-size: 1.2rem;
+}
+
+/* Publications Section */
+.publications {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.publications h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.publication-item {
+    margin-bottom: 40px;
+}
+
+.publication-item img {
+    max-width: 400px;
+    border-radius: 10px;
+}
