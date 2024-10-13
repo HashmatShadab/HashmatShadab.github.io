@@ -22,13 +22,13 @@ body {
 /* Header Section */
 header {
     background: var(--header-bg-image) no-repeat center center/cover;
-    height: 30vh; /* Full viewport height for dynamic resizing */
+    height: 28vh; /* Full viewport height for dynamic resizing */
     position: relative;
     text-align: left;
     color: var(--header-text-color);
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: end;
+    /*justify-content: center;*/
     /* Optional: Add overlay to make text more readable over the image */
     background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent overlay */
     background-blend-mode: overlay;
@@ -36,11 +36,12 @@ header {
 .header-content {
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    align-items: center; /* Centers the block of content horizontally */
-    text-align: left; /* Aligns the text to the left */
-    max-width: 600px; /* Optional: restrict the content width */
-    margin: 0 auto; /* Centers the content horizontally */
+    justify-content: flex-start; /* Align content to the left */
+    align-items: flex-start; /* Align items to the left instead of center */
+    text-align: left; /* Text alignment on the left */
+    max-width: 600px; /* Restrict the content width */
+    margin-left: 20px; /* Add some margin for better spacing */
+    padding: 20px; /* Add padding for better spacing */
 }
 
 header h1, header h2, header h3 {
@@ -49,22 +50,21 @@ header h1, header h2, header h3 {
 
 header h1 {
     font-size: 3rem;
-    font-weight: 10;
+    font-weight: 400; /* Ensure correct font-weight, as 10 is invalid */
     margin-bottom: 10px;
 }
 
 header h2 {
     font-size: 2rem;
-    font-weight: 10;
+    font-weight: 400;
     margin-bottom: 20px;
 }
 
 header h3 {
     font-size: 1.5rem;
-    font-weight: 10;
+    font-weight: 400;
     margin-bottom: 10px;
 }
-
 
 /* Media query to adjust font size for smaller screens */
 @media (max-width: 768px) {
@@ -83,7 +83,7 @@ header h3 {
 
 .social-links {
     display: flex;
-    justify-content: flex-start; /* Left align the icons */
+    justify-content: flex-start; /* Align icons to the left */
     margin-top: 20px;
     width: 100%; /* Ensure it takes up full width for alignment purposes */
 }
@@ -137,17 +137,28 @@ header h3 {
 
 .bio {
     flex: 2;
-    font-size: 1.3rem;
-    line-height: 1.7;
+    font-family: 'Times New Roman', serif; /* Use a serif font similar to LaTeX */
+    font-size: 1.25rem; /* LaTeX-style font size */
+    line-height: 1.8; /* Slightly increased line height for better readability */
     color: #333;
     text-align: justify; /* Justify the text */
-
+    padding: 10px 0; /* Add padding for visual separation */
 }
 
 .bio p {
-    margin: 0;
+    margin: 0 0 15px 0; /* Add margin between paragraphs */
     padding: 0;
 }
+
+/* Optional: Styling for block quotes or sections like LaTeX "quotes" */
+.bio blockquote {
+    font-style: italic;
+    color: #666;
+    margin-left: 20px;
+    padding-left: 10px;
+    border-left: 2px solid #ccc;
+}
+
 
 
 /* Publications Section */
@@ -183,18 +194,19 @@ header h3 {
 
 
 .publication-item h3 {
-    font-family: 'Caveat', cursive; /* Sketch/handwritten-style font */
+    /*font-family: 'Caveat', cursive; !* Sketch/handwritten-style font *!*/
+    font-family: 'Times New Roman', serif; /* Use a serif font similar to LaTeX */
+    font-weight: 20;
     font-size: 32px; /* Increase size for more impact */
-    color: #457b9d; /* Soft, sketch-like color */
+    color: #1c1f20; /* Soft, sketch-like color */
     letter-spacing: 1px; /* Slight spacing for a handwritten effect */
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1); /* Add shadow for sketch-like appearance */
 }
 
 
 .publication-item p  {
     font-family: 'Caveat', cursive; /* Sketch/handwritten-style font */
     font-size: 16px;
-    color: #5a5851; /* Vibrant, sketch-like color */
+    color: #534f3e; /* Vibrant, sketch-like color */
     letter-spacing: 1px; /* Slight spacing for handwritten feel */
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow for sketch effect */
 }
@@ -220,3 +232,124 @@ header h3 {
     margin: 0;
     padding: 0;
 }
+
+nav {
+    background-color: #333;
+    padding: 5px;
+    text-align: left;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 2rem;
+    font-weight: 10;
+    font-family: 'Arial', sans-serif;
+}
+
+nav a:hover {
+    color: #ff9800; /* Change the color on hover */
+}
+
+/* News Section */
+.news-updates {
+    margin: 20px 0;
+}
+
+.news-updates h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.news-updates ul {
+    list-style-type: disc; /* Default bullet points */
+    padding-left: 60px; /* Add left padding for bullet point alignment */
+    margin: 0;
+}
+
+.news-updates ul li {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    padding: 5px 0;
+}
+
+.news-updates ul li strong {
+    color: #000; /* Bold black for the date */
+}
+
+
+/* Services Section */
+.services {
+    margin: 20px 0;
+}
+
+.services h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.service-item h3 {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.service-item p {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin-left: 60px;
+}
+
+.service-item ul {
+    list-style-type: disc;
+    padding-left: 80px;
+}
+
+.service-item ul li {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    padding: 5px 0;
+}
+
+
+/* Awards and Merits Section */
+.awards-merits {
+    margin: 40px 0;
+}
+
+.awards-merits h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.awards-merits ul {
+    list-style-type: disc; /* Bullet points for the list */
+    padding-left: 60px;
+}
+
+.awards-merits ul li {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    padding: 5px 0;
+}
+

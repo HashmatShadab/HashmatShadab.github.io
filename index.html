@@ -11,6 +11,12 @@
 
 <body>
 
+<!-- Navigation Bar -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="publications.html">Publications</a>
+    </nav>
+
     <!-- Header Section -->
     <header>
         <div class="header-content">
@@ -33,86 +39,60 @@
             <img src="profile.jpg" alt="Profile Picture">
         </div>
         <div class="bio">
-            <p>I am a PhD candidate at Mohamed Bin Zayed University of Artificial Intelligence (MBZUAI) in
-                Abu Dhabi, UAE, where I am affiliated with the IVAL lab. My research focuses on the Safety and
-                Reliability of AI, with a particular emphasis on understanding, evaluating, and enhancing the robustness
-                of vision-based models. I have previously completed my master's degree in Computer Vision at MBZUAI and
-                continue to explore critical challenges in AI robustness at the intersection of self-supervision,
-                adversarial defenses, and out-of-distribution generalization.</p>
+            <p>I am a PhD candidate at MBZUAI in
+                Abu Dhabi, UAE, where I am affiliated with the IVAL lab, working under the supervision of Dr. Salman Khan and Dr. Fahad Shahbaz Khan.
+                My research focuses on the Safety and Reliability of AI, with a particular emphasis on understanding, evaluating, and enhancing the robustness
+                of vision-based models.</p>
         </div>
     </section>
 
-    <!-- Publications Section -->
-    <section class="publications">
-        <h2>Publications</h2>
-        <div class="publication-item">
-            <h3>Towards Evaluating the Robustness of Visual State Space Models (Under Review)</h3>
-            <p><strong>Hashmat Shadab Malik</strong>, Fahad Shamshad, Muzammal Naseer, Karthik Nandakumar, Fahad Shahbaz Khan, Karthik Nandakumar  </p>
-<!--            <img src="robust_mamba.jpg" alt="Publication Image">-->
-            <div class="summary">
-            <p>
-                 In this work, we present a comprehensive evaluation of VSSMs' robustness under various perturbation scenarios, including occlusions,
-                image structure, common corruptions, and adversarial attacks, and compare their performance to well-established architectures such as transformers
-                and Convolutional Neural Networks. Furthermore, we investigate the resilience of VSSMs to object-background compositional changes on sophisticated
-                benchmarks designed to test model performance in complex visual scenes. We also assess their robustness on object detection and segmentation tasks
-                using corrupted datasets that mimic real-world scenarios. To gain a deeper understanding of VSSMs' adversarial robustness, we conduct a frequency-based
-                analysis of adversarial attacks, evaluating their performance against low-frequency and high-frequency perturbations. Our findings highlight the
-                strengths and limitations of VSSMs in handling complex visual corruptions, offering valuable insights for future research.
-            </p>
-            </div>
-        </div>
-        <div class="publication-item">
-            <h3>ObjectCompose: Evaluating Resilience of Vision-Based Models on Object-to-Background Compositional Changes [ACCV 2024 Oral]</h3>
-            <p><strong>Hashmat Shadab Malik*</strong>, <strong>Muhammad Huzaifa*</strong>, Muzammal Naseer, Salman Khan, Fahad Shahbaz Khan  </p>
-            <img src="accv2024.jpg" alt="Publication Image">
-            <div class="summary">
-            <p>
-                We propose ObjectCompose, which can induce diverse object-to-background changes while preserving the original semantics and appearance of the object.
-                To achieve this goal, we harness the generative capabilities of text-to-image, image-to-text, and image-to-segment models to automatically generate a
-                broad spectrum of object-to-background changes. We induce both natural and adversarial background changes by either modifying the textual prompts or
-                optimizing the latents and textual embedding of text-to-image models. We produce various versions of standard vision datasets (ImageNet, COCO),
-                incorporating either diverse and realistic backgrounds into the images or introducing color, texture, and adversarial changes in the background.
-                We conduct extensive experiments to analyze the robustness of vision-based models against object-to-background context variations across diverse tasks.
-            </p>
-            </div>
-        </div>
-
-        <div class="publication-item">
-            <h3>Evaluating Robustness of Volumetric Medical Segmentation Models [BMVC 2024]</h3>
-            <p><strong>Hashmat Shadab Malik</strong>, Numan Saeed, Asif Hanif, Muzammal Naseer, Mohammad Yaqub, Salman Khan, Fahad Shahbaz Khan  </p>
-            <img src="bmvc2024.jpg" alt="Publication Image">
-            <div class="summary">
-            <p>
-                Our work aims to empirically examine the adversarial robustness across current volumetric medical segmentation architectures, encompassing
-                Convolutional, Transformer, and Mamba-based models. We extend this investigation across four volumetric segmentation datasets,
-                evaluating robustness under both white box and black box adversarial attacks. Overall, we observe that while both pixel and frequency-based
-                attacks perform reasonably well under white box setting, the latter performs significantly better under transfer-based black box attacks.
-                Across our experiments, we observe transformer-based models show higher robustness than convolution-based models with Mamba-based models
-                being the most vulnerable. Additionally, we show that large-scale training of volumetric segmentation models improves the model's robustness
-                against adversarial attacks.
-            </p>
-                </div>
-        </div>
-        <div class="publication-item">
-            <h3>Adversarial Pixel Restoration as a Pretext Task for Transferable Perturbations [BMVC 2022 Oral]</h3>
-            <p><strong>Hashmat Shadab Malik</strong>, Shahina K. Kunhimon, Muzammal Naseer, Salman Khan, Fahad Shahbaz Khan  </p>
-            <img src="bmvc2022.jpg" alt="Publication Image">
-            <div class="summary">
-            <p>
-                Transferable adversarial attacks optimize adversaries from a pretrained surrogate model and known label space to fool the unknown
-                black-box models. Therefore, these attacks are restricted by the availability of an effective surrogate model. In this work,
-                we relax this assumption and propose Adversarial Pixel Restoration as a self-supervised alternative to train an effective surrogate model
-                from scratch under the condition of no labels and few data samples. Our training approach is based on a min-max scheme which reduces
-                overfitting via an adversarial objective and thus optimizes for a more generalizable surrogate model. Our proposed attack is complimentary
-                to the adversarial pixel restoration and is independent of any task specific objective as it can be launched in a self-supervised manner.
-                We successfully demonstrate the adversarial transferability of our approach to Vision Transformers as well as Convolutional Neural Networks
-                for the tasks of classification, object detection, and video segmentation. Our training approach improves the transferability of the baseline
-                unsupervised training method by 16.4% on ImageNet val. set.
-            </p>
-                </div>
-        </div>
-
+    <!-- News Section -->
+    <section class="news-updates">
+        <h2>News</h2>
+        <ul>
+            <li><strong>[June. 2024]</strong> Our paper “Evaluating Robustness of Volumetric Medical Segmentation Models” got accepted at NMVC 2024.</li>
+            <li><strong>[Sept. 2024]</strong> Our paper “ObjectCompose: Evaluating Resilience of Vision-Based Models on Object-to-Background Compositional Changes” got accepted at ACCV 2024 for <strong>Oral Presentation (Top 5%)!</strong>.</li>
+            <li><strong>[Jan. 2023]</strong>  I joined MBZUAI as a PhD student in Computer Vision with full scholarship.</li>
+            <li><strong>[Sept. 2022]</strong> Our paper “Adversarial Pixel Restoration as a Pretext Task for Transferable Perturbations” got accepted at BMVC 2024 for <strong>Oral Presentation (Top 9%)!</strong>.</li>
+            <li><strong>[Jan. 2021]</strong>  I joined MBZUAI as a Masters student in Computer Vision with full scholarship.</li>
+        </ul>
     </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <h2>Services</h2>
+
+        <!-- Conference Reviewing Section -->
+        <div class="service-item">
+            <h3>Conference Reviewing</h3>
+            <ul>
+                <li>Served as a Reviewer at ECCV'24, BMVC'24, CVPR'23.</li>
+            </ul>
+        </div>
+
+        <!-- Academic Services Section -->
+        <div class="service-item">
+            <h3>Academic Services</h3>
+            <ul>
+                <li>Teaching Assistant for Advanced Computer Vision (CV801) - Fall 2024</li>
+                <li>Teaching Assistant for Human and Computer Vision (CV701) - Fall 2023</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Awards and Merits Section -->
+    <section class="awards-merits">
+        <h2>Awards and Merits</h2>
+        <ul>
+            <li>Full scholarship for PhD in Computer Vision at the Mohamed Bin Zayed University of Artificial Intelligence (MBZUAI).</li>
+            <li>Full scholarship to study Masters in Computer Vision at the Mohamed Bin Zayed University of Artificial Intelligence (MBZUAI).</li>
+            <li>Merit Based Scholarship granted for undergraduate studies by Ministry of Minority Affairs, India.</li>
+            <li>Secured 140th state rank in IIT-JEE Mains 2014 (among top 2% of 1.5 million students across the country).</li>
+        </ul>
+    </section>
+
+
+
 
 </body>
 </html>
