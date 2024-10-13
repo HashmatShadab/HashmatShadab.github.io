@@ -24,6 +24,7 @@ organizations:
   - name: Mohamed Bin Zayed University of Artificial Intelligence
     url: https://mbzuai.ac.ae/
 
+      
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include the safety and reliability of AI,
   with a focus on the robustness of vision-based models, adversarial defenses, and out-of-distribution generalization.
@@ -32,21 +33,22 @@ bio: My research interests include the safety and reliability of AI,
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:hashmat.malik@mbzuai.ac.ae'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+#  - icon: brands/x
+#    url: https://twitter.com/GetResearchDev
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/hashmat-malik/
   # Link to a PDF of your resume/CV - upload it to `static/uploads/resume.pdf`
   - icon: academicons/cv
     url: uploads/resume.pdf
     label: Download my resume
-  - icon: rss
-    url: ./post/index.xml
-    label: Subscribe to my blog via RSS feed
+  - icon: brands/google-scholar
+    url: https://scholar.google.com/citations?user=2Ft7r4AAAAAJ&hl=en
+    label: Google Scholar
+#  - icon: rss
+#    url: ./post/index.xml
+#    label: Subscribe to my blog via RSS feed
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
@@ -60,3 +62,4 @@ where he is affiliated with the IVAL lab. His research focuses on the Safety and
 emphasis on understanding, evaluating, and enhancing the robustness of vision-based models. Hashmat previously completed 
 his master's degree in Computer Vision at MBZUAI and continues to explore critical challenges in AI robustness at the 
 intersection of self-supervision, adversarial defenses, and out-of-distribution generalization.
+
