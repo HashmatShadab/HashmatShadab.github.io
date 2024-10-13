@@ -57,24 +57,44 @@ header h2 {
 }
 
 /* About Section */
+/* About Section */
 .about {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px 20px;
+    padding: 40px;
+    background-color: #f9f9f9; /* Light background to distinguish the section */
+    border-top: 2px solid #ddd; /* Optional border for better separation */
+    border-bottom: 2px solid #ddd;
+}
+
+.profile-pic {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
 }
 
 .profile-pic img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin-right: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the image */
 }
 
 .bio {
-    max-width: 600px;
-    font-size: 1.2rem;
+    flex: 2;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #333;
 }
+
+.bio p {
+    margin: 0;
+    padding: 0;
+}
+
 
 /* Publications Section */
 .publications {
