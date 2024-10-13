@@ -46,6 +46,11 @@ header h2 {
     margin-bottom: 20px;
 }
 
+header h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
 .social-links a {
     margin: 0 10px;
     color: var(--header-text-color);
@@ -76,18 +81,28 @@ header h2 {
     padding-right: 20px;
 }
 
+
 .profile-pic img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the image */
+    width: 250px;
+    height: auto; /* Maintain aspect ratio without fixed height */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow without borders */
+    object-fit: cover; /* Ensure the image fills the space naturally */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
 }
+
+.profile-pic img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
 
 .bio {
     flex: 2;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     line-height: 1.7;
     color: #333;
+    text-align: justify; /* Justify the text */
+
 }
 
 .bio p {
