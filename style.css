@@ -162,97 +162,24 @@ header h3 {
 
 
 /* Publications Section which is in publications.html */
-/*.publications {*/
-/*    max-width: 400px; !* Increased max-width for better readability *!*/
-/*    margin: 0 auto; !* Center the section *!*/
-/*    padding: 20px;*/
-/*}*/
-
-/*!* Heading Style *!*/
-/*.publications h2 {*/
-/*    font-family: 'Raleway', sans-serif;*/
-/*    font-weight: 300;*/
-/*    font-size: 36px;*/
-/*    color: #264653;*/
-/*    letter-spacing: 1.5px;*/
-/*    text-align: left;*/
-/*    margin-bottom: 40px;*/
-/*}*/
-
-/*!* Individual Publication Styling *!*/
-/*.publication-item {*/
-/*    background-color: #ffffff;*/
-/*    padding: 20px;*/
-/*    border-radius: 12px;*/
-/*    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);*/
-/*    margin-bottom: 30px;*/
-/*    transition: transform 0.3s ease;*/
-/*}*/
-
-/*!* Hover Effect *!*/
-/*.publication-item:hover {*/
-/*    transform: translateY(-10px);*/
-/*}*/
-
-/*!* Publication Title *!*/
-/*.publication-item h3 {*/
-/*    font-family: 'Times New Roman', serif; !* Serif font for a professional look *!*/
-/*    font-weight: 400; !* Corrected font weight *!*/
-/*    font-size: 28px; !* Adjusted size for better consistency *!*/
-/*    color: #1c1f20;*/
-/*    letter-spacing: 1px;*/
-/*}*/
-
-/*!* Paragraph Text (Author and Description) *!*/
-/*.publication-item p {*/
-/*    font-family: 'Arial', sans-serif; !* Consistent sans-serif font *!*/
-/*    font-size: 16px;*/
-/*    color: #534f3e;*/
-/*    letter-spacing: 1px;*/
-/*    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); !* Subtle shadow *!*/
-/*}*/
-
-/*!* Image Styling *!*/
-/*.publication-item img {*/
-/*    width: 100%;*/
-/*    height: auto;*/
-/*    border-radius: 8px;*/
-/*}*/
-
-/*!* Summary Box Styling *!*/
-/*.publication-item .summary {*/
-/*    background-color: #f9f9f9;*/
-/*    padding: 10px 15px;*/
-/*    margin-top: 15px;*/
-/*    border-left: 4px solid #0d3b66;*/
-/*    font-size: 1rem;*/
-/*    color: #555;*/
-/*    line-height: 1.6;*/
-/*}*/
-
-/*!* Ensure Paragraphs inside Summary are Well-Spaced *!*/
-/*.publication-item .summary p {*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-/*}*/
-
 .publications {
-    background-color: #f0f4f8; /* Light blue-gray background */
-    padding: 40px;
+    max-width: 400px; /* Increased max-width for better readability */
+    margin: 0 auto; /* Center the section */
+    padding: 20px;
 }
 
+/* Heading Style */
 .publications h2 {
-    font-family: 'Raleway', sans-serif; /* Thin, modern sans-serif font */
-    font-weight: 300; /* Thinner font weight */
-    font-size: 36px; /* Keep size slightly large for emphasis */
-    color: #264653; /* Soft, hand-drawn color */
-    letter-spacing: 1.5px; /* Subtle letter spacing */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    color: #264653;
+    letter-spacing: 1.5px;
     text-align: left;
     margin-bottom: 40px;
 }
 
-
+/* Individual Publication Styling */
 .publication-item {
     background-color: #ffffff;
     padding: 20px;
@@ -262,50 +189,123 @@ header h3 {
     transition: transform 0.3s ease;
 }
 
+/* Hover Effect */
 .publication-item:hover {
     transform: translateY(-10px);
 }
 
-
+/* Publication Title */
 .publication-item h3 {
-    /*font-family: 'Caveat', cursive; !* Sketch/handwritten-style font *!*/
-    font-family: 'Times New Roman', serif; /* Use a serif font similar to LaTeX */
-    font-weight: 20;
-    font-size: 32px; /* Increase size for more impact */
-    color: #1c1f20; /* Soft, sketch-like color */
-    letter-spacing: 1px; /* Slight spacing for a handwritten effect */
+    font-family: 'Times New Roman', serif; /* Serif font for a professional look */
+    font-weight: 400; /* Corrected font weight */
+    font-size: 28px; /* Adjusted size for better consistency */
+    color: #1c1f20;
+    letter-spacing: 1px;
 }
 
-
-.publication-item p  {
-    font-family: 'Caveat', cursive; /* Sketch/handwritten-style font */
+/* Paragraph Text (Author and Description) */
+.publication-item p {
+    font-family: 'Arial', sans-serif; /* Consistent sans-serif font */
     font-size: 16px;
-    color: #534f3e; /* Vibrant, sketch-like color */
-    letter-spacing: 1px; /* Slight spacing for handwritten feel */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow for sketch effect */
+    color: #534f3e;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
-
+/* Image Styling */
 .publication-item img {
     width: 100%;
     height: auto;
     border-radius: 8px;
 }
 
+/* Summary Box Styling */
 .publication-item .summary {
-    background-color: #f9f9f9; /* Light background for the summary */
+    background-color: #f9f9f9;
     padding: 10px 15px;
     margin-top: 15px;
-    border-left: 4px solid #0d3b66; /* Left border for emphasis */
+    border-left: 4px solid #0d3b66;
     font-size: 1rem;
     color: #555;
     line-height: 1.6;
 }
 
+/* Ensure Paragraphs inside Summary are Well-Spaced */
 .publication-item .summary p {
     margin: 0;
     padding: 0;
 }
+
+/*.publications {*/
+/*    background-color: #f0f4f8; !* Light blue-gray background *!*/
+/*    padding: 40px;*/
+/*}*/
+
+/*.publications h2 {*/
+/*    font-family: 'Raleway', sans-serif; !* Thin, modern sans-serif font *!*/
+/*    font-weight: 300; !* Thinner font weight *!*/
+/*    font-size: 36px; !* Keep size slightly large for emphasis *!*/
+/*    color: #264653; !* Soft, hand-drawn color *!*/
+/*    letter-spacing: 1.5px; !* Subtle letter spacing *!*/
+/*    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); !* Light shadow for depth *!*/
+/*    text-align: left;*/
+/*    margin-bottom: 40px;*/
+/*}*/
+
+
+/*.publication-item {*/
+/*    background-color: #ffffff;*/
+/*    padding: 20px;*/
+/*    border-radius: 12px;*/
+/*    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);*/
+/*    margin-bottom: 30px;*/
+/*    transition: transform 0.3s ease;*/
+/*}*/
+
+/*.publication-item:hover {*/
+/*    transform: translateY(-10px);*/
+/*}*/
+
+
+/*.publication-item h3 {*/
+/*    !*font-family: 'Caveat', cursive; !* Sketch/handwritten-style font *!*!*/
+/*    font-family: 'Times New Roman', serif; !* Use a serif font similar to LaTeX *!*/
+/*    font-weight: 20;*/
+/*    font-size: 32px; !* Increase size for more impact *!*/
+/*    color: #1c1f20; !* Soft, sketch-like color *!*/
+/*    letter-spacing: 1px; !* Slight spacing for a handwritten effect *!*/
+/*}*/
+
+
+/*.publication-item p  {*/
+/*    font-family: 'Caveat', cursive; !* Sketch/handwritten-style font *!*/
+/*    font-size: 16px;*/
+/*    color: #534f3e; !* Vibrant, sketch-like color *!*/
+/*    letter-spacing: 1px; !* Slight spacing for handwritten feel *!*/
+/*    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); !* Subtle shadow for sketch effect *!*/
+/*}*/
+
+
+/*.publication-item img {*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*    border-radius: 8px;*/
+/*}*/
+
+/*.publication-item .summary {*/
+/*    background-color: #f9f9f9; !* Light background for the summary *!*/
+/*    padding: 10px 15px;*/
+/*    margin-top: 15px;*/
+/*    border-left: 4px solid #0d3b66; !* Left border for emphasis *!*/
+/*    font-size: 1rem;*/
+/*    color: #555;*/
+/*    line-height: 1.6;*/
+/*}*/
+
+/*.publication-item .summary p {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
 
 nav {
     background-color: #333;
