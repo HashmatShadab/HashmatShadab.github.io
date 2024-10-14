@@ -17,6 +17,9 @@
 body {
     font-family: var(--font-family);
     color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+    line-height: 1; /* Improves readability on all devices */
 }
 
 /* Header Section */
@@ -33,24 +36,49 @@ header {
     background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent overlay */
     background-blend-mode: overlay;
 }
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    header {
+        height: 35vh; /* Increase height for better visibility on medium screens */
+        background-position: center; /* Ensure proper positioning of background image */
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        height: auto; /* Allow header height to adjust based on content */
+        background: none; /* Remove background image for better performance on small screens */
+        background-color: #333; /* Provide a fallback solid background color */
+    }
+}
+
 .header-content {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* Align content to the left */
-    align-items: flex-start; /* Align items to the left instead of center */
-    text-align: left; /* Text alignment on the left */
-    max-width: 600px; /* Restrict the content width */
-    margin-left: 20px; /* Add some margin for better spacing */
-    padding: 20px; /* Add padding for better spacing */
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    max-width: 600px;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .header-content {
+        max-width: 90%; /* Allow more flexibility on smaller screens */
+        margin-left: 10px;
+        padding: 15px;
+    }
 }
 
 header h1, header h2, header h3 {
-    width: 100%; /* Make sure each header spans the full width */
+    width: 100%;
 }
 
 header h1 {
     font-size: 3rem;
-    font-weight: 400; /* Ensure correct font-weight, as 10 is invalid */
+    font-weight: 400;
     margin-bottom: 10px;
 }
 
@@ -66,14 +94,14 @@ header h3 {
     margin-bottom: 10px;
 }
 
-/* Media query to adjust font size for smaller screens */
+/* Responsive font size adjustments */
 @media (max-width: 768px) {
     header h1 {
         font-size: 2.5rem;
     }
 
     header h2 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 
     header h3 {
@@ -81,11 +109,35 @@ header h3 {
     }
 }
 
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header h2 {
+        font-size: 1.5rem;
+    }
+
+    header h3 {
+        font-size: 1rem;
+    }
+}
+
+
+
+
 .social-links {
     display: flex;
     justify-content: flex-start; /* Align icons to the left */
     margin-top: 20px;
     width: 100%; /* Ensure it takes up full width for alignment purposes */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .social-links {
+        justify-content: center; /* Center the icons on smaller screens */
+    }
 }
 
 .social-links a {
@@ -100,6 +152,13 @@ header h3 {
     transform: scale(1.1); /* Slightly increase icon size on hover */
 }
 
+/* Font size adjustment for very small screens */
+@media (max-width: 480px) {
+    .social-links a {
+        font-size: 1.5rem; /* Reduce icon size on small devices */
+    }
+}
+
 
 /* About Section */
 .about {
@@ -107,9 +166,24 @@ header h3 {
     justify-content: center;
     align-items: center;
     padding: 40px;
-    background-color: #f9f9f9; /* Light background to distinguish the section */
-    border-top: 2px solid #ddd; /* Optional border for better separation */
+    background-color: #f9f9f9;
+    border-top: 2px solid #ddd;
     border-bottom: 2px solid #ddd;
+    flex-wrap: wrap; /* Allows content to wrap on smaller screens */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .about {
+        padding: 30px; /* Reduce padding for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .about {
+        flex-direction: column; /* Stack content vertically on very small screens */
+        padding: 20px; /* Further reduce padding on small screens */
+    }
 }
 
 .profile-pic {
@@ -120,33 +194,69 @@ header h3 {
     padding-right: 20px;
 }
 
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .profile-pic {
+        padding-right: 0; /* Remove padding on medium screens */
+    }
+}
 
 .profile-pic img {
     width: 250px;
     height: auto; /* Maintain aspect ratio without fixed height */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow without borders */
-    object-fit: cover; /* Ensure the image fills the space naturally */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* Hover effect for the profile image */
 .profile-pic img:hover {
-    transform: scale(1.05); /* Slight zoom effect on hover */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+
+/* Adjust image size on smaller screens */
+@media (max-width: 768px) {
+    .profile-pic img {
+        width: 200px; /* Reduce image size for medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-pic img {
+        width: 150px; /* Further reduce image size for small screens */
+    }
+}
+
 
 
 .bio {
     flex: 2;
-    font-family: 'Times New Roman', serif; /* Use a serif font similar to LaTeX */
-    font-size: 1.25rem; /* LaTeX-style font size */
-    line-height: 1.8; /* Slightly increased line height for better readability */
+    font-family: 'Times New Roman', serif;
+    font-size: 1.25rem;
+    line-height: 1.8;
     color: #333;
-    text-align: justify; /* Justify the text */
-    padding: 10px 0; /* Add padding for visual separation */
+    text-align: justify;
+    padding: 10px 0;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .bio {
+        font-size: 1.1rem; /* Reduce font size for medium screens */
+        padding: 10px 15px; /* Add padding for better spacing on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .bio {
+        font-size: 1rem; /* Further reduce font size for small screens */
+        padding: 10px 10px; /* Reduce padding for small screens */
+    }
 }
 
 .bio p {
-    margin: 0 0 15px 0; /* Add margin between paragraphs */
+    margin: 0 0 15px 0;
     padding: 0;
 }
 
@@ -159,6 +269,22 @@ header h3 {
     border-left: 2px solid #ccc;
 }
 
+/* Adjust blockquote for smaller screens */
+@media (max-width: 768px) {
+    .bio blockquote {
+        margin-left: 10px;
+        padding-left: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .bio blockquote {
+        margin-left: 5px;
+        padding-left: 5px;
+        font-size: 0.9rem; /* Reduce font size for blockquotes on small screens */
+    }
+}
+
 
 
 /* Publications Section */
@@ -166,6 +292,12 @@ header h3 {
     background-color: #f0f4f8; /* Light blue-gray background */
     padding: 40px;
     /*text-align: center;*/
+}
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .publications {
+        padding: 30px;
+    }
 }
 
 .publications h2 {
@@ -182,6 +314,19 @@ header h3 {
     margin-right: auto; /* Center alignment */
 }
 
+/* Responsive heading size for smaller screens */
+@media (max-width: 768px) {
+    .publications h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .publications h2 {
+        font-size: 24px;
+    }
+}
+
 
 .publication-item {
     background-color: #ffffff;
@@ -194,6 +339,20 @@ header h3 {
     margin-left: auto; /* Center alignment */
     margin-right: auto; /* Center alignment */
 }
+
+/* Adjust width for smaller screens */
+@media (max-width: 768px) {
+    .publication-item {
+        width: 85%;
+    }
+}
+
+@media (max-width: 480px) {
+    .publication-item {
+        width: 95%;
+    }
+}
+
 
 .publication-item:hover {
     transform: translateY(-10px);
@@ -209,6 +368,19 @@ header h3 {
     letter-spacing: 1px; /* Slight spacing for a handwritten effect */
 }
 
+/* Responsive adjustments for publication titles */
+@media (max-width: 768px) {
+    .publication-item h3 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    .publication-item h3 {
+        font-size: 24px;
+    }
+}
+
 
 .publication-item p  {
     font-family: 'Caveat', cursive; /* Sketch/handwritten-style font */
@@ -218,11 +390,37 @@ header h3 {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow for sketch effect */
 }
 
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .publication-item p {
+        font-size: 15px; /* Slightly reduce font size for medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .publication-item p {
+        font-size: 14px; /* Further reduce font size for small screens */
+        letter-spacing: 0.8px; /* Adjust letter-spacing for smaller text */
+    }
+}
 
 .publication-item img {
     width: 100%;
     height: auto;
     border-radius: 8px;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .publication-item img {
+        width: 90%; /* Slightly reduce image width for medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .publication-item img {
+        width: 80%; /* Further reduce image width for small screens */
+    }
 }
 
 .publication-item .summary {
@@ -233,6 +431,13 @@ header h3 {
     font-size: 1rem;
     color: #555;
     line-height: 1.6;
+}
+
+/* Responsive padding for the summary on smaller screens */
+@media (max-width: 480px) {
+    .publication-item .summary {
+        padding: 8px 12px;
+    }
 }
 
 .publication-item .summary p {
@@ -253,6 +458,28 @@ header h3 {
     display: inline-block;
 }
 
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .publication-links {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+}
+
+/* Responsive adjustments for links on smaller screens */
+@media (max-width: 768px) {
+    .publication-links a {
+        font-size: 1rem; /* Reduce font size for medium screens */
+    }
+}
+
+
+@media (max-width: 480px) {
+    .publication-links a {
+        font-size: 0.9rem; /* Further reduce font size for small screens */
+    }
+}
+
 .publication-links a:hover {
     color: #ff9800; /* Highlight on hover */
 }
@@ -261,6 +488,18 @@ header h3 {
     margin-right: 5px; /* Spacing between icon and text */
 }
 
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .publication-links i {
+        margin-right: 4px; /* Slightly reduce spacing on medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .publication-links i {
+        margin-right: 3px; /* Further reduce spacing on small screens */
+    }
+}
 
 nav {
     background-color: #333;
@@ -268,22 +507,50 @@ nav {
     text-align: left;
 }
 
+/* Responsive padding for smaller screens */
+@media (max-width: 768px) {
+    nav {
+        padding: 10px; /* Add more padding for medium screens */
+    }
+}
+
 nav a {
     color: white;
     text-decoration: none;
     margin: 0 15px;
     font-size: 2rem;
-    font-weight: 10;
+    font-weight: 400; /* Use a valid font-weight value */
     font-family: 'Arial', sans-serif;
 }
 
-nav a:hover {
-    color: #ff9800; /* Change the color on hover */
+/* Responsive font size adjustments */
+@media (max-width: 768px) {
+    nav a {
+        font-size: 1.5rem; /* Reduce font size for medium screens */
+    }
 }
+
+@media (max-width: 480px) {
+    nav a {
+        font-size: 1.2rem; /* Further reduce font size for small screens */
+    }
+}
+
+nav a:hover {
+    color: #ff9800;
+}
+
 
 /* News Section */
 .news-updates {
     margin: 20px 0;
+}
+
+/* Responsive margin adjustments */
+@media (max-width: 768px) {
+    .news-updates {
+        margin: 15px 0; /* Slightly reduce margins for medium screens */
+    }
 }
 
 .news-updates h2 {
@@ -294,10 +561,31 @@ nav a:hover {
     margin-left: 20px;
 }
 
+/* Responsive heading size adjustments */
+@media (max-width: 768px) {
+    .news-updates h2 {
+        font-size: 28px; /* Reduce font size for medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .news-updates h2 {
+        font-size: 24px; /* Further reduce font size for small screens */
+        margin-left: 15px; /* Adjust left margin for smaller screens */
+    }
+}
+
 .news-updates ul {
-    list-style-type: disc; /* Default bullet points */
-    padding-left: 60px; /* Add left padding for bullet point alignment */
+    list-style-type: disc;
+    padding-left: 60px;
     margin: 0;
+}
+
+/* Responsive padding for the list */
+@media (max-width: 480px) {
+    .news-updates ul {
+        padding-left: 40px; /* Reduce padding on small screens */
+    }
 }
 
 .news-updates ul li {
@@ -308,14 +596,29 @@ nav a:hover {
     padding: 5px 0;
 }
 
-.news-updates ul li strong {
-    color: #000; /* Bold black for the date */
+/* Adjust font size for list items on smaller screens */
+@media (max-width: 480px) {
+    .news-updates ul li {
+        font-size: 14px; /* Reduce font size for small screens */
+    }
 }
+
+.news-updates ul li strong {
+    color: #000;
+}
+
 
 
 /* Services Section */
 .services {
     margin: 20px 0;
+}
+
+/* Responsive margin adjustment */
+@media (max-width: 768px) {
+    .services {
+        margin: 15px 0;
+    }
 }
 
 .services h2 {
@@ -326,12 +629,41 @@ nav a:hover {
     margin-left: 20px;
 }
 
+/* Responsive heading size adjustment */
+@media (max-width: 768px) {
+    .services h2 {
+        font-size: 28px; /* Reduce font size for medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .services h2 {
+        font-size: 24px; /* Further reduce font size for small screens */
+        margin-left: 15px; /* Adjust margin for small screens */
+    }
+}
+
 .service-item h3 {
     font-family: 'Arial', sans-serif;
     font-size: 20px;
     color: #333;
     margin-bottom: 10px;
     margin-left: 40px;
+}
+
+/* Responsive heading size and margin for service items */
+@media (max-width: 768px) {
+    .service-item h3 {
+        font-size: 18px; /* Reduce heading size */
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .service-item h3 {
+        font-size: 16px;
+        margin-left: 20px;
+    }
 }
 
 .service-item p {
@@ -342,9 +674,36 @@ nav a:hover {
     margin-left: 60px;
 }
 
+/* Responsive text size and margin adjustment */
+@media (max-width: 768px) {
+    .service-item p {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .service-item p {
+        font-size: 14px;
+        margin-left: 20px;
+    }
+}
+
 .service-item ul {
     list-style-type: disc;
     padding-left: 80px;
+}
+
+/* Responsive padding adjustment for the list */
+@media (max-width: 768px) {
+    .service-item ul {
+        padding-left: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .service-item ul {
+        padding-left: 40px;
+    }
 }
 
 .service-item ul li {
@@ -355,10 +714,30 @@ nav a:hover {
     padding: 5px 0;
 }
 
+/* Responsive font size adjustment for list items */
+@media (max-width: 480px) {
+    .service-item ul li {
+        font-size: 14px;
+    }
+}
+
 
 /* Awards and Merits Section */
 .awards-merits {
     margin: 40px 0;
+}
+
+/* Responsive margin adjustment */
+@media (max-width: 768px) {
+    .awards-merits {
+        margin: 30px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .awards-merits {
+        margin: 20px 0;
+    }
 }
 
 .awards-merits h2 {
@@ -369,9 +748,36 @@ nav a:hover {
     margin-left: 20px;
 }
 
+/* Responsive heading size adjustment */
+@media (max-width: 768px) {
+    .awards-merits h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    .awards-merits h2 {
+        font-size: 24px;
+        margin-left: 15px;
+    }
+}
+
 .awards-merits ul {
-    list-style-type: disc; /* Bullet points for the list */
+    list-style-type: disc;
     padding-left: 60px;
+}
+
+/* Responsive padding for the list */
+@media (max-width: 768px) {
+    .awards-merits ul {
+        padding-left: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .awards-merits ul {
+        padding-left: 40px;
+    }
 }
 
 .awards-merits ul li {
@@ -380,5 +786,12 @@ nav a:hover {
     line-height: 1.6;
     color: #333;
     padding: 5px 0;
+}
+
+/* Responsive font size for list items */
+@media (max-width: 480px) {
+    .awards-merits ul li {
+        font-size: 14px;
+    }
 }
 
