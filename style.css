@@ -240,6 +240,28 @@ header h3 {
     padding: 0;
 }
 
+.publication-links {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.publication-links a {
+    margin-right: 5px;
+    color: #333;
+    font-size: 1.1rem;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.publication-links a:hover {
+    color: #ff9800; /* Highlight on hover */
+}
+
+.publication-links i {
+    margin-right: 5px; /* Spacing between icon and text */
+}
+
+
 nav {
     background-color: #333;
     padding: 5px;
