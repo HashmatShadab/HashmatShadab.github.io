@@ -186,6 +186,9 @@ header h3 {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
     transition: transform 0.3s ease;
+    width: 50%; /* Adjust width here */
+    margin-left: auto; /* Center alignment */
+    margin-right: auto; /* Center alignment */
 }
 
 .publication-item:hover {
