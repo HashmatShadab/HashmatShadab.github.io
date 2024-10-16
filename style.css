@@ -366,6 +366,8 @@ header h3 {
     font-size: 32px; /* Increase size for more impact */
     color: #1c1f20; /* Soft, sketch-like color */
     letter-spacing: 1px; /* Slight spacing for a handwritten effect */
+    margin-bottom: 10px;
+
 }
 
 /* Responsive adjustments for publication titles */
