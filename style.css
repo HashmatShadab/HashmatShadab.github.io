@@ -427,10 +427,10 @@ header h3 {
 
 .publication-item .summary {
     font-family: 'Times New Roman', serif; /* Use a serif font similar to LaTeX */
-    background-color: #f9f9f9; /* Light background for the summary */
+    background-color: rgba(235, 241, 199, 0.96); /* Light background for the summary */
     padding: 10px 15px;
     margin-top: 15px;
-    border-left: 4px solid #0d3b66; /* Left border for emphasis */
+    border-left: 4px solid #82b4dd; /* Left border for emphasis */
     font-size: 1rem;
     color: #555;
     line-height: 1.6;
