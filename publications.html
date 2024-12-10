@@ -20,6 +20,24 @@
     <section class="publications">
         <h2>Publications</h2>
         <div class="publication-item">
+            <h3>Robust-LLaVA: On the  Effectiveness of Large-Scale Robust Image Encoders for Multi-modal Large Language Models (Under Review)</h3>
+            <p><strong>Hashmat Shadab Malik</strong>, Fahad Shamshad, Muzammal Naseer, Fahad Shahbaz Khan, Karthik Nandakumar  </p>
+<!--            <img src="robust_mamba.jpg" alt="Publication Image">-->
+                        <!-- Links to GitHub and Paper -->
+                        <img src="cvpr_review.png" alt="Publication Image">
+            <div class="summary">
+            <p>
+                Multi-modal Large Language Models (MLLMs) have demonstrated impressive capabilities in vision-language tasks, but their reliance on visual processing introduces critical security vulnerabilities. Their vision encoders remain susceptible to adversarial perturbations that can induce hallucinations, manipulate responses, or bypass safety mechanisms while maintaining coherent language generation. Current approaches attempt to address this by adversarially fine-tuning CLIP vision encoders on ImageNet-scale data, but exhibit inherent limitations in both robustness and generalization due to the restricted scale and diversity of adversarial training.
+In this work, we present an alternative approach by leveraging vision encoders adversarially pre-trained on billion-scale image-text pairs.
+Our analysis reveals two principal contributions:
+(1) the extensive scale and diversity of adversarial pre-training enables these encoders to demonstrate superior robustness against diverse adversarial threats, ranging from imperceptible perturbations to advanced jailbreaking attempts, and (2) end-to-end MLLM optimization with these robust encoders facilitates enhanced adaptation of language components to robust visual features, substantially outperforming existing plug-and-play methodologies on complex reasoning tasks.
+Through systematic evaluation across visual question-answering, image captioning, and jail-break attacks, we demonstrate that MLLMs trained with these robust encoders achieve superior adversarial robustness while maintaining favorable clean performance. Our framework achieves 2× and 1.5× average robustness gains in captioning and VQA tasks, respectively, and delivers over 10%  improvement against advanced jailbreaking attacks compared to state-of-the-art methods.
+            </p>
+            </div>
+
+        </div>
+
+        <div class="publication-item">
             <h3>Towards Evaluating the Robustness of Visual State Space Models (Under Review)</h3>
             <p><strong>Hashmat Shadab Malik</strong>, Fahad Shamshad, Muzammal Naseer, Karthik Nandakumar, Fahad Shahbaz Khan, Karthik Nandakumar  </p>
 <!--            <img src="robust_mamba.jpg" alt="Publication Image">-->
