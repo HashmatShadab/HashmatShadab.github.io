@@ -289,29 +289,143 @@ header h3 {
 
 /* Publications Section */
 .publications {
-    background-color: #ffffff; /* Light blue-gray background */
-    padding: 40px;
-    /*text-align: center;*/
+    background-color: #ffffff;
+    padding: 50px 0;
 }
+
+.publications h2 {
+    font-weight: 600;
+    font-size: 32px;
+    color: #818ae6;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+.publication-item {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+    width: 65%; /* Adjust width here */
+    margin-left: auto; /* Center alignment */
+    margin-right: auto; /* Center alignment */
+}
+
+.publication-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+
+.publication-item h3 {
+    font-weight: 700;
+    font-size: 22px;
+    color: #1c1f20;
+    margin-bottom: 8px;
+    text-align: center; /* Center align title */
+}
+
+.publication-item p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.7;
+    text-align: center; /* Center-align author names */
+}
+
+
+.publication-item img {
+    max-width: 80%; /* Reduce image width for better fit */
+    height: auto;
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.publication-item .summary {
+    font-family: "Lora", serif; /* Elegant font for summaries */
+    font-size: 20px; /* Slightly larger font for readability */
+    font-weight: 500; /* Normal weight for better readability */
+    letter-spacing: 0.5px; /* Slight spacing for clarity */
+    background-color: rgb(236, 233, 228);
+    padding: 15px;
+    border-left: 4px solid #1c1f20;
+    border-radius: 8px; /* Softer edges */
+    font-size: 16px;
+    color: #333;
+    line-height: 1.8;
+    text-align: justify !important; /* Use !important to override other styles */
+}
+
+
+.publication-item .summary p {
+    margin: 0;
+    padding: 0;
+    text-align: justify !important; /* Use !important to override other styles */
+    font-size: 17px; /* Slightly larger font for readability */
+    font-weight: 500; /* Normal weight for better readability */
+    font-family: "Lora", serif; /* Elegant font for summaries */
+
+}
+
+
+.publication-links {
+    margin-top: 8px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+
+
+.publication-links a {
+    color: #82b4dd;
+    font-weight: 500;
+    font-size: 18px; /* Slightly larger icons */
+    margin: 0 8px; /* Spacing between icons */
+    transition: all 0.3s ease-in-out;
+}
+
+.publication-links a:hover {
+    color: #2A2D34;
+    text-decoration: underline;
+}
+
+
+
+.publication-links i {
+    margin-right: 5px; /* Spacing between icon and text */
+}
+
+
+
+nav {
+    background-color: #2A2D34;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+nav a {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #FF6B35;
+}
+
+
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
     .publications {
         padding: 30px;
     }
-}
-
-.publications h2 {
-    font-family: 'Raleway', sans-serif; /* Thin, modern sans-serif font */
-    font-weight: 300; /* Thinner font weight */
-    font-size: 36px; /* Keep size slightly large for emphasis */
-    color: #264653; /* Soft, hand-drawn color */
-    letter-spacing: 1.5px; /* Subtle letter spacing */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
-    margin-bottom: 40px;
-    width: 70%;
-    *text-align: center;
-    margin-left: auto; /* Center alignment */
-    margin-right: auto; /* Center alignment */
 }
 
 /* Responsive heading size for smaller screens */
@@ -328,18 +442,6 @@ header h3 {
 }
 
 
-.publication-item {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    margin-bottom: 30px;
-    transition: transform 0.3s ease;
-    width: 70%; /* Adjust width here */
-    margin-left: auto; /* Center alignment */
-    margin-right: auto; /* Center alignment */
-}
-
 /* Adjust width for smaller screens */
 @media (max-width: 768px) {
     .publication-item {
@@ -353,22 +455,6 @@ header h3 {
     }
 }
 
-
-.publication-item:hover {
-    transform: translateY(-10px);
-}
-
-
-.publication-item h3 {
-    /*font-family: 'Caveat', cursive; !* Sketch/handwritten-style font *!*/
-    font-family: 'Times New Roman', serif; /* Use a serif font similar to LaTeX */
-    font-weight: 20;
-    font-size: 32px; /* Increase size for more impact */
-    color: #dc6c26; /* Soft, sketch-like color */
-    letter-spacing: 1px; /* Slight spacing for a handwritten effect */
-    margin-bottom: 10px;
-
-}
 
 /* Responsive adjustments for publication titles */
 @media (max-width: 768px) {
@@ -384,14 +470,6 @@ header h3 {
 }
 
 
-.publication-item p  {
-    font-family: 'Caveat', cursive; /* Sketch/handwritten-style font */
-    font-size: 16px;
-    color: #534f3e; /* Vibrant, sketch-like color */
-    letter-spacing: 1px; /* Slight spacing for handwritten feel */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow for sketch effect */
-}
-
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
     .publication-item p {
@@ -406,11 +484,13 @@ header h3 {
     }
 }
 
-.publication-item img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
+/* Responsive padding for the summary on smaller screens */
+@media (max-width: 480px) {
+    .publication-item .summary {
+        padding: 8px 12px;
+    }
 }
+
 
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
@@ -423,42 +503,6 @@ header h3 {
     .publication-item img {
         width: 80%; /* Further reduce image width for small screens */
     }
-}
-
-.publication-item .summary {
-    font-family: 'Times New Roman', serif; /* Use a serif font similar to LaTeX */
-    background-color: rgba(235, 241, 199, 0.96); /* Light background for the summary */
-    padding: 10px 15px;
-    margin-top: 15px;
-    border-left: 4px solid #82b4dd; /* Left border for emphasis */
-    font-size: 1rem;
-    color: #555;
-    line-height: 1.6;
-}
-
-/* Responsive padding for the summary on smaller screens */
-@media (max-width: 480px) {
-    .publication-item .summary {
-        padding: 8px 12px;
-    }
-}
-
-.publication-item .summary p {
-    margin: 0;
-    padding: 0;
-}
-
-.publication-links {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.publication-links a {
-    margin-right: 5px;
-    color: #333;
-    font-size: 1.1rem;
-    text-decoration: none;
-    display: inline-block;
 }
 
 /* Responsive adjustments for smaller screens */
@@ -483,49 +527,6 @@ header h3 {
     }
 }
 
-.publication-links a:hover {
-    color: #ff9800; /* Highlight on hover */
-}
-
-.publication-links i {
-    margin-right: 5px; /* Spacing between icon and text */
-}
-
-/* Responsive adjustments for smaller screens */
-@media (max-width: 768px) {
-    .publication-links i {
-        margin-right: 4px; /* Slightly reduce spacing on medium screens */
-    }
-}
-
-@media (max-width: 480px) {
-    .publication-links i {
-        margin-right: 3px; /* Further reduce spacing on small screens */
-    }
-}
-
-nav {
-    background-color: #333;
-    padding: 5px;
-    text-align: left;
-}
-
-/* Responsive padding for smaller screens */
-@media (max-width: 768px) {
-    nav {
-        padding: 10px; /* Add more padding for medium screens */
-    }
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 2rem;
-    font-weight: 400; /* Use a valid font-weight value */
-    font-family: 'Arial', sans-serif;
-}
-
 /* Responsive font size adjustments */
 @media (max-width: 768px) {
     nav a {
@@ -539,8 +540,24 @@ nav a {
     }
 }
 
-nav a:hover {
-    color: #ff9800;
+/* Responsive padding for smaller screens */
+@media (max-width: 768px) {
+    nav {
+        padding: 10px; /* Add more padding for medium screens */
+    }
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .publication-links i {
+        margin-right: 4px; /* Slightly reduce spacing on medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .publication-links i {
+        margin-right: 3px; /* Further reduce spacing on small screens */
+    }
 }
 
 
