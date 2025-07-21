@@ -41,8 +41,8 @@
     <div class="periodical"><em>Under Review</em></div>
     <div class="links">
       <a href="https://arxiv.org/abs/2502.01576" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      <a href="https://github.com/HashmatShadab/Robust-LLaVA" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Dataset</a>
-      <a href="https://hashmatshadab.github.io/Robust-LLaVA/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      <a href="https://github.com/HashmatShadab/Robust-LLaVA" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      <a href="https://hashmatshadab.github.io/Robust-LLaVA/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
       <strong><i style="color:#e74d3c"></i></strong>
     </div>
   </div>
@@ -66,8 +66,7 @@
     <div class="periodical"><em>Under Review</em></div>
     <div class="links">
       <a href="https://arxiv.org/abs/2503.12990" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-<!--       <a href="https://github.com/musk007/Histopathology_Benchmark" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project page</a> -->
-      <a href="https://github.com/schowdhury671/aurelia" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      <a href="https://github.com/musk007/Histopathology_Benchmark" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
       <strong><i style="color:#e74d3c"></i></strong>
     </div>
   </div>
