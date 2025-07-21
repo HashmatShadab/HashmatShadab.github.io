@@ -14,21 +14,10 @@
 
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="">FaceGuardian: Protecting Facial Biometrics from Malicious Generative Editing via Latent Optimization</a></div>
-    <div class="author">Fahad Shamshad</strong>, Hashmat Shadab Malik, Muzammal Naseer, Karthik
+    <div class="author">Fahad Shamshad, Hashmat Shadab Malik, Muzammal Naseer, Karthik
             Nandakumar, Salman Khan</div>
     <div class="periodical"><em>Under Review</em></div>
 
-[//]: # (    <div class="links">)
-
-[//]: # (      <a href="http://arxiv.org/pdf/2506.05336" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>)
-
-[//]: # (      <a href="https://mbzuai-oryx.github.io/VideoMolmo/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project page</a>)
-
-[//]: # (      <a href="https://github.com/mbzuai-oryx/VideoMolmo" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>)
-
-[//]: # (      <strong><i style="color:#e74d3c"></i></strong>)
-
-[//]: # (    </div>)
   </div>
 </div>
 </li>
