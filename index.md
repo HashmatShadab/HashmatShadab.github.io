@@ -41,6 +41,6 @@ My research focuses on the Safety and Reliability of AI, with a particular empha
 - **[Sep. 2022]** Our work titled “[Adversarial Pixel Restoration as a Pretext Task for Transferable Perturbations](https://arxiv.org/abs/2207.08803)” got accepted at BMVC 2022 for **Oral Presentation (Top 9%)**! 🎉.
 - **[Jan. 2021]**  I joined MBZUAI as a Masters student in Computer Vision with full scholarship.
 
-{% include_relative _includes/publications.md %}
+{% include publications.md %}
 
-{% include_relative _includes/services.md %}
+{% include services.md %}
