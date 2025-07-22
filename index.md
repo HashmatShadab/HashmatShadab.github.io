@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am currently a PhD Candidate at [Mohamed Bin Zayed University of Artificial Intelligence (MBZUAI)](http://www.mbzuai.ac.ae) and before that have  obtained my Masters degree in computer vision from the same institution. At MBZUAI, I am affliated with the [Intelligent Visual Analytics Lab (IVAL)](https://www.ival-mbzuai.com/) where I am primarily advised by [Dr. Salman Khan](https://salman-h-khan.github.io/) and have a close collaboration with [Dr. Muzammal Naseer](https://muzammal-naseer.netlify.app/). My secondary advisor is [Dr. Fahad Khan](https://sites.google.com/view/fahadkhans/home). 
+I am currently a PhD Candidate at [Mohamed Bin Zayed University of Artificial Intelligence (MBZUAI)](http://www.mbzuai.ac.ae) and before that have  obtained my Masters degree in computer vision from the same institution. At MBZUAI, I am affliated with the [Intelligent Visual Analytics Lab (IVAL)](https://www.ival-mbzuai.com/) where I am primarily advised by [Dr. Salman Khan](https://salman-h-khan.github.io/) and have a close collaboration with [Dr. Muzammal Naseer](https://muzammal-naseer.com/). My secondary advisor is [Dr. Fahad Khan](https://sites.google.com/view/fahadkhans/home). 
 
 
 I received my undergraduate degree in Electronics and Communication Engineering with a minor in Computer Science from the [National Institute of Technology (NIT) Srinagar, India](https://nitsri.ac.in/). 
