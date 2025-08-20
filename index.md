@@ -29,7 +29,7 @@ After graduation, I worked as a researcher at Indian Institute of Science [IISc]
 My research focuses on the Safety and Reliability of AI, with a particular emphasis on understanding, evaluating, and enhancing the robustness of vision-based models.
 
 ## News
-- **[August. 2025]**  Our work <strong><a href="https://hashmatshadab.github.io/Robust-LLaVA/">Robust-LLaVA</a></strong> will be presented in Trustworthy FMs Workshop workshop at **ICCV 2025**! 🎉
+- **[August. 2025]**  Our work <strong><a href="https://hashmatshadab.github.io/Robust-LLaVA/">Robust-LLaVA</a></strong> will be presented in Trustworthy FMs Workshop at **ICCV 2025**! 🎉
 - **[June. 2025]**  Our work [HSAT](https://arxiv.org/abs/2503.10629) has been accepted at **MICCAI 2025**! 🎉
 - **[Mar. 2025]** Our work titled "[Towards Evaluating the Robustness of Visual State Space Models](https://arxiv.org/abs/2406.09407)" got accepted at **CVPRW 2025**! 🎉
 - **[Mar. 2025]** Our work [HSAT](https://arxiv.org/abs/2503.10629), enhances robustness of histopathology vision models by leveraging patient-slide-patch relationships to construct heirarchy-wise attacks and integrate the generated adversarial examples in the model training. HSAT achieves a 54.31% improvement against white-box attacks and reduces performance drop to 3-4% against black-box attacks.
