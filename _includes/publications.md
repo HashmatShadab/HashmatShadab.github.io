@@ -39,11 +39,13 @@
     <div class="author">Hashmat Shadab Malik, Fahad Shamshad, Muzammal Naseer, Karthik
             Nandakumar, Fahad Shahbaz Khan, Salman Khan</div>
     <div class="periodical"><em>Under Review</em></div>
+    <div class="periodical"><em>Trustworthy FMs Workshop
+Trust Before Use: Building Foundation Models that You Can Trust (ICCVW) 2025</em></div>
     <div class="links">
       <a href="https://arxiv.org/abs/2502.01576" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://github.com/HashmatShadab/Robust-LLaVA" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
       <a href="https://hashmatshadab.github.io/Robust-LLaVA/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
-      <strong><i style="color:#e74d3c"></i></strong>
+      <strong><i style="color:#e74d3c">Oral Presentation</i></strong>
     </div>
   </div>
 </div>
@@ -91,7 +93,7 @@
       <a href="https://arxiv.org/abs/2503.10629" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://github.com/HashmatShadab/HSAT" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
       <a href="https://hashmatshadab.github.io/HSAT/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
-      <strong><i style="color:#e74d3c"></i></strong>
+      <strong><i style="color:#e74d3c">Poster Presentation</i></strong>
     </div>
   </div>
 </div>
