@@ -162,7 +162,7 @@ Trust Before Use: Building Foundation Models that You Can Trust (ICCVW) 2025</em
     <div class="title"><a href="https://arxiv.org/abs/2406.08486">Evaluating Robustness of Volumetric Medical Segmentation Models</a></div>
     <div class="author">Hashmat Shadab Malik,  Numan Saeed, Asif Hanif, Muzammal Naseer, Mohammad Yaqub, Salman Khan,
             Fahad Shahbaz Khan </div>
-    <div class="periodical"><em>35th Asian Conference on Computer Vision (ACCV) 2024</em></div>
+    <div class="periodical"><em>The 35th British Machine Vision Conference (BMVC) 2024</em></div>
     <div class="links">
       <a href="https://arxiv.org/abs/2406.08486" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://github.com/HashmatShadab/Robustness-of-Volumetric-Medical-Segmentation-Models" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
