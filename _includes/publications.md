@@ -4,25 +4,39 @@
 <ol class="bibliography">
 
 
-<li>
-<div class="pub-row">
+[//]: # (<li>)
 
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/face_guardian_main_diagram.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">Under Review</abbr>
-  </div>
+[//]: # (<div class="pub-row">)
 
-  <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="">FaceGuardian: Protecting Facial Biometrics from Malicious Generative Editing via Latent Optimization</a></div>
-    <div class="author">Fahad Shamshad, Hashmat Shadab Malik, Muzammal Naseer, Karthik
-            Nandakumar, Salman Khan</div>
-    <div class="periodical"><em>Under Review</em></div>
+[//]: # ()
+[//]: # (  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">)
 
-  </div>
-</div>
-</li>
+[//]: # (    <img src="assets/img/face_guardian_main_diagram.png" class="teaser img-fluid z-depth-1">)
 
-<br>
+[//]: # (    <abbr class="badge">Under Review</abbr>)
+
+[//]: # (  </div>)
+
+[//]: # ()
+[//]: # (  <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">)
+
+[//]: # (    <div class="title"><a href="">FaceGuardian: Protecting Facial Biometrics from Malicious Generative Editing via Latent Optimization</a></div>)
+
+[//]: # (    <div class="author">Fahad Shamshad, Hashmat Shadab Malik, Muzammal Naseer, Karthik)
+
+[//]: # (            Nandakumar, Salman Khan</div>)
+
+[//]: # (    <div class="periodical"><em>Under Review</em></div>)
+
+[//]: # ()
+[//]: # (  </div>)
+
+[//]: # (</div>)
+
+[//]: # (</li>)
+
+[//]: # ()
+[//]: # (<br>)
 
 
 <li>
