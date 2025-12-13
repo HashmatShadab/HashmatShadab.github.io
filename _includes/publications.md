@@ -8,14 +8,14 @@
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/face_guardian_main_diagram.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">Under Review</abbr>
+    <abbr class="badge">SaTML 2026</abbr>
   </div>
 
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="">FaceGuardian: Protecting Facial Biometrics from Malicious Generative Editing via Latent Optimization</a></div>
     <div class="author">Fahad Shamshad, Hashmat Shadab Malik, Muzammal Naseer, Karthik
             Nandakumar, Salman Khan</div>
-    <div class="periodical"><em>Under Review</em></div>
+    <div class="periodical"><em>4th IEEE Conference on Secure and Trustworthy Machine Learning (SaTML) 2026</em></div>
 
   </div>
 </div>
@@ -38,7 +38,6 @@
             Models</a></div>
     <div class="author">Hashmat Shadab Malik, Fahad Shamshad, Muzammal Naseer, Karthik
             Nandakumar, Fahad Shahbaz Khan, Salman Khan</div>
-    <div class="periodical"><em>Under Review</em></div>
     <div class="periodical"><em>Trustworthy FMs Workshop
 Trust Before Use: Building Foundation Models that You Can Trust (ICCVW) 2025</em></div>
     <div class="links">
