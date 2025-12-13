@@ -13,10 +13,13 @@
 
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="">FaceGuardian: Protecting Facial Biometrics from Malicious Generative Editing via Latent Optimization</a></div>
-    <div class="author">Fahad Shamshad, Hashmat Shadab Malik, Muzammal Naseer, Karthik
-            Nandakumar, Salman Khan</div>
+    <div class="author">Fahad Shamshad, Hashmat Shadab Malik, Muzammal Naseer, Salman Khan, Karthik
+            Nandakumar </div>
     <div class="periodical"><em>4th IEEE Conference on Secure and Trustworthy Machine Learning (SaTML) 2026</em></div>
-
+    <div class="links">
+      <strong><i style="color:#e74d3c">Poster Presentation</i></strong>
+    </div>
+    
   </div>
 </div>
 </li>
