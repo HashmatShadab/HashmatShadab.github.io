@@ -17,7 +17,7 @@
             Nandakumar </div>
     <div class="periodical"><em>4th IEEE Conference on Secure and Trustworthy Machine Learning (SaTML) 2026</em></div>
     <div class="links">
-      <strong><i style="color:#e74d3c">Poster Presentation</i></strong>
+      <strong><i style="color:#e74d3c">Oral Presentation + Poster</i></strong>
     </div>
     
   </div>
@@ -144,7 +144,7 @@ Trust Before Use: Building Foundation Models that You Can Trust (ICCVW) 2025</em
       <a href="https://arxiv.org/abs/2403.04701" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://github.com/Muhammad-Huzaifaa/ObjectCompose" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
       <a href="https://muhammad-huzaifaa.github.io/ObjectCompose/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
-      <strong><i style="color:#e74d3c">Oral Presentation, Best Student Paper Runner-Up</i></strong>
+      <strong><i style="color:#e74d3c">Oral Presentation (Best Student Paper Runner-Up)</i></strong>
     </div>
   </div>
 </div>
