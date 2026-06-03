@@ -7,6 +7,66 @@
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/multilingual_mllms.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">Under Review</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://arxiv.org/abs/2606.03793">Exploring Adversarial Robustness and Safety Alignment in Multilingual Multi-Modal Large Language Models</a></div>
+    <div class="author">Hashmat Shadab Malik, Muzammal Naseer, Salman Khan</div>
+    <div class="periodical"><em>Under Review</em></div>
+    <div class="links">
+      <a href="https://arxiv.org/abs/2606.03793" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+    </div>
+  </div>
+</div>
+</li>
+<br>
+
+<li>
+<div class="pub-row">
+
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/robust_mllm.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">Under Review</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://arxiv.org/abs/2606.03713">Investigating Adversarial Robustness of Multi-modal Large Language Models</a></div>
+    <div class="author">Hashmat Shadab Malik, Muzammal Naseer, Salman Khan</div>
+    <div class="periodical"><em>Under Review</em></div>
+    <div class="links">
+      <a href="https://arxiv.org/abs/2606.03713" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+    </div>
+  </div>
+</div>
+</li>
+<br>
+
+<li>
+<div class="pub-row">
+
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/tpt_defense.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">Under Review</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://arxiv.org/abs/2606.03730">Beyond False Stability: High-Noise Drift Gating for Test-Time Adversarial Defenses in Vision-Language Models</a></div>
+    <div class="author">Hashmat Shadab Malik, Muzammal Naseer, Salman Khan</div>
+    <div class="periodical"><em>Under Review</em></div>
+    <div class="links">
+      <a href="https://arxiv.org/abs/2606.03730" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+    </div>
+  </div>
+</div>
+</li>
+<br>
+
+<li>
+<div class="pub-row">
+
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/face_guardian_main_diagram.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">SaTML 2026</abbr>
   </div>
