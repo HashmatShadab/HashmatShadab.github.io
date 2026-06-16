@@ -67,6 +67,29 @@
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/HistVL.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">MIUA 2026</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://arxiv.org/abs/2503.12990">How Good is my Histopathology Vision-Language Foundation Model? A Holistic Benchmark</a></div>
+    <div class="author">Roba Al Majzoub, Hashmat Shadab Malik, Muzammal Naseer, Zaigham Zaheer, Tariq Mahmood, Salman Khan and Fahad Khan</div>
+    <div class="periodical"><em>30th Conference on Medical Image Understanding and Analysis (MIUA) 2026</em></div>
+    <div class="links">
+      <a href="https://arxiv.org/abs/2503.12990" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://github.com/musk007/Histopathology_Benchmark" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      <strong><i style="color:#e74d3c">Poster Presentation</i></strong>
+    </div>
+  </div>
+</div>
+</li>
+
+<br>
+
+<li>
+<div class="pub-row">
+
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/face_guardian_main_diagram.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">SaTML 2026</abbr>
   </div>
@@ -116,28 +139,7 @@ Trust Before Use: Building Foundation Models that You Can Trust (ICCVW) 2025</em
 <br>
 
 
-<li>
-<div class="pub-row">
 
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/HistVL.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">MIUA 2026</abbr>
-  </div>
-
-  <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://arxiv.org/abs/2503.12990">How Good is my Histopathology Vision-Language Foundation Model? A Holistic Benchmark</a></div>
-    <div class="author">Roba Al Majzoub, Hashmat Shadab Malik, Muzammal Naseer, Zaigham Zaheer, Tariq Mahmood, Salman Khan and Fahad Khan</div>
-    <div class="periodical"><em>30th Conference on Medical Image Understanding and Analysis (MIUA) 2026</em></div>
-    <div class="links">
-      <a href="https://arxiv.org/abs/2503.12990" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      <a href="https://github.com/musk007/Histopathology_Benchmark" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      <strong><i style="color:#e74d3c">Poster Presentation</i></strong>
-    </div>
-  </div>
-</div>
-</li>
-
-<br>
 
 <li>
 <div class="pub-row">
