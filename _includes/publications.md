@@ -130,7 +130,7 @@ Trust Before Use: Building Foundation Models that You Can Trust (ICCVW) 2025</em
       <a href="https://arxiv.org/abs/2502.01576" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://github.com/HashmatShadab/Robust-LLaVA" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
       <a href="https://hashmatshadab.github.io/Robust-LLaVA/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
-      <strong><i style="color:#e74d3c">Oral Presentation</i></strong>
+      <strong><i style="color:#e74d3c">Oral Presentation + Poster</i></strong>
     </div>
   </div>
 </div>
@@ -206,7 +206,7 @@ Trust Before Use: Building Foundation Models that You Can Trust (ICCVW) 2025</em
       <a href="https://arxiv.org/abs/2403.04701" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://github.com/Muhammad-Huzaifaa/ObjectCompose" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
       <a href="https://muhammad-huzaifaa.github.io/ObjectCompose/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
-      <strong><i style="color:#e74d3c">Oral Presentation (Best Student Paper Runner-Up)</i></strong>
+      <strong><i style="color:#e74d3c">Oral Presentation + Poster (Best Student Paper Runner-Up)</i></strong>
     </div>
   </div>
 </div>
@@ -254,7 +254,7 @@ Trust Before Use: Building Foundation Models that You Can Trust (ICCVW) 2025</em
     <div class="links">
       <a href="https://arxiv.org/abs/2207.08803" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://github.com/HashmatShadab/APR" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      <strong><i style="color:#e74d3c">Oral Presentation</i></strong>
+      <strong><i style="color:#e74d3c">Oral Presentation + Poster</i></strong>
     </div>
   </div>
 </div>
