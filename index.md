@@ -29,7 +29,7 @@ After graduation, I worked as a researcher at Indian Institute of Science [IISc]
 My research focuses on the Safety and Reliability of AI, with a particular emphasis on understanding, evaluating, and enhancing the robustness of vision-based models.
 
 ## News
-- **[June. 2026]**  Our work [HistoVL](https://arxiv.org/abs/2503.12990) got accepted at **MIUA 2026**! 🎉
+- **[June. 2026]**  Our work [HistoVL](https://arxiv.org/abs/2503.12990) got accepted at **MIUA 2026**! It will be presented as an oral presentation + poster. 🎉
 - **[Dec. 2025]**  Our work <strong>FaceGuardian</strong> got accepted at **SaTML 2026**! It will be presented as an oral presentation + poster. 🎉
 - **[Aug. 2025]**  Our work <strong><a href="https://hashmatshadab.github.io/Robust-LLaVA/">Robust-LLaVA</a></strong> will be presented as an oral presentation in Trustworthy FMs Workshop at **ICCV 2025**! 🎉
 - **[Jun. 2025]**  Our work [HSAT](https://arxiv.org/abs/2503.10629) has been accepted at **MICCAI 2025**! 🎉

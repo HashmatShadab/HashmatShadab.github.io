@@ -78,7 +78,7 @@
     <div class="links">
       <a href="https://arxiv.org/abs/2503.12990" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://github.com/musk007/Histopathology_Benchmark" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      <strong><i style="color:#e74d3c">Poster Presentation</i></strong>
+      <strong><i style="color:#e74d3c">Oral Presentation + Poster</i></strong>
     </div>
   </div>
 </div>
