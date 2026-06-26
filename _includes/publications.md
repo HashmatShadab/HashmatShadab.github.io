@@ -7,6 +7,28 @@
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/CORTEX_concept_diagram.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">Under Review</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="">CORTEX: A Structured Reasoning Benchmark for Trustworthy 3D Chest CT MLLMs</a></div>
+    <div class="author">Hashmat Shadab Malik,  Anees Ur Rehman Hashmi, Numan Saeed, Muzammal Naseer, Salman Khan, Christoph Lippert </div>
+    <div class="periodical"><em>Under Review</em></div>
+    <div class="links">
+      <a href="" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+    </div>
+  </div>
+</div>
+</li>
+<br>
+
+<li>
+
+<li>
+<div class="pub-row">
+
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/multilingual_mllms.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">Under Review</abbr>
   </div>
