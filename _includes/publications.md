@@ -77,13 +77,12 @@
     <div class="author">Hashmat Shadab Malik*,  Anees Ur Rehman Hashmi*, Numan Saeed, Muzammal Naseer, Salman Khan, Christoph Lippert </div>
         <div class="periodical"><em>SAFER Workshop: Stable Adaptation and Faithful Evaluation of Reasoning in Medical Foundation Models (MICCAI) 2026</em></div>
     <div class="links">
-    <div class="links">
       <a href="https://arxiv.org/abs/2606.27264" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <strong><i style="color:#e74d3c">Oral Presentation + Poster</i></strong>
     </div>
   </div>
 </div>
-<li>
+</li>
 
 <br>
 
