@@ -8,15 +8,17 @@
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/CORTEX_concept_diagram.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">Under Review</abbr>
+    <abbr class="badge">MICCAIW 2026</abbr>
   </div>
 
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://arxiv.org/abs/2606.27264">CORTEX: A Structured Reasoning Benchmark for Trustworthy 3D Chest CT MLLMs</a></div>
     <div class="author">Hashmat Shadab Malik*,  Anees Ur Rehman Hashmi*, Numan Saeed, Muzammal Naseer, Salman Khan, Christoph Lippert </div>
-    <div class="periodical"><em>Under Review</em></div>
+        <div class="periodical"><em>SAFER Workshop: Stable Adaptation and Faithful Evaluation of Reasoning in Medical Foundation Models (MICCAI) 2026</em></div>
+    <div class="links">
     <div class="links">
       <a href="https://arxiv.org/abs/2606.27264" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <strong><i style="color:#e74d3c">Oral Presentation + Poster</i></strong>
     </div>
   </div>
 </div>

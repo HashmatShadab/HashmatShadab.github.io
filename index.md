@@ -29,9 +29,10 @@ After graduation, I worked as a researcher at Indian Institute of Science [IISc]
 My research focuses on the Safety and Reliability of AI, with a particular emphasis on understanding, evaluating, and enhancing the robustness of vision-based models.
 
 ## News
-- **[June. 2026]**  Our work [HistoVL](https://arxiv.org/abs/2503.12990) got accepted at **MIUA 2026**! It will be presented as an oral presentation + poster. 🎉
-- **[Dec. 2025]**  Our work <strong>FaceGuardian</strong> got accepted at **SaTML 2026**! It will be presented as an oral presentation + poster. 🎉
-- **[Aug. 2025]**  Our work <strong><a href="https://hashmatshadab.github.io/Robust-LLaVA/">Robust-LLaVA</a></strong> will be presented as an oral presentation in Trustworthy FMs Workshop at **ICCV 2025**! 🎉
+- **[July 2026]** Our work **[CORTEX](https://arxiv.org/abs/2606.27264)** was accepted to the **[SAFER Workshop](https://safer-workshop.github.io/) at MICCAI 2026**, where it was **selected for an oral presentation**! 🎉
+- **[June 2026]** Our work **[HistoVL](https://arxiv.org/abs/2503.12990)** was accepted to **MIUA 2026**, where it was **selected for an oral presentation**! 🎉
+- **[December 2025]** Our work **FaceGuardian** was accepted to **SaTML 2026**, where it was **selected for both an oral and poster presentation**! 🎉
+- **[August 2025]** Our work **[Robust-LLaVA](https://hashmatshadab.github.io/Robust-LLaVA/)** was accepted to the **Trustworthy Foundation Models Workshop at ICCV 2025**, where it was **selected for an oral presentation**! 🎉
 - **[Jun. 2025]**  Our work [HSAT](https://arxiv.org/abs/2503.10629) has been accepted at **MICCAI 2025**! 🎉
 - **[Mar. 2025]** Our work titled "[Towards Evaluating the Robustness of Visual State Space Models](https://arxiv.org/abs/2406.09407)" got accepted at **CVPRW 2025**! 🎉
 - **[Mar. 2025]** Our work [HSAT](https://arxiv.org/abs/2503.10629), enhances robustness of histopathology vision models by leveraging patient-slide-patch relationships to construct heirarchy-wise attacks and integrate the generated adversarial examples in the model training. HSAT achieves a 54.31% improvement against white-box attacks and reduces performance drop to 3-4% against black-box attacks.
