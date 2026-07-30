@@ -4,6 +4,24 @@
 <ol class="bibliography">
 
 <li>
+<div class="pub-row">
+
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/ReACT-CLIP.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">Under Review</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="">ReACT-CLIP: Response-Aware Test-Time Defense for
+Vision--Language Models</a></div>
+    <div class="author">Hashmat Shadab Malik, Toluwani Aremu, Samuele Poppi, Muzammal Naseer, Salman Khan</div>
+    <div class="periodical"><em>Under Review</em></div>
+    <div class="links">
+    </div>
+  </div>
+</div>
+</li>
+<br>
 
 <div class="pub-row">
 
