@@ -132,7 +132,7 @@
     <div class="author" style="margin-top: 5px; font-size: 0.95em;">Fahad Shamshad, Hashmat Shadab Malik, Muzammal Naseer, Salman Khan, Karthik Nandakumar</div>
     <div class="periodical" style="font-style: italic; color: #666; font-size: 0.9em; margin-top: 3px;">4th IEEE Conference on Secure and Trustworthy Machine Learning (SaTML) 2026</div>
     <div class="links" style="margin-top: 8px;">
-      <span style="color:#e74d3c; font-weight: 600; font-size: 0.9em;">Oral Presentation + Poster</span>
+      <span class="presentation-label">Oral Presentation + Poster</span>
     </div>
   </div>
 </div>
