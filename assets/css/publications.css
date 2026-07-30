@@ -41,7 +41,12 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications ol.bibliography li { min-height: 110px; margin-bottom: 0.5rem; }
 
-.publications ol.bibliography li .abbr { position: relative; margin-bottom: 0.5rem; }
+.publications ol.bibliography li .abbr { 
+    position: relative; 
+    margin-bottom: 0.5rem;
+    width: 140px;
+    flex: 0 0 140px !important;
+}
 
 .publications ol.bibliography li .abbr abbr { 
     display: inline-block; 
@@ -95,8 +100,9 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
     border-radius: 8px; 
     box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
     width: 100%; 
-    height: 120px; 
+    height: 100px; 
     object-fit: cover; 
-    margin-top: 5px; 
-    margin-bottom: 5px; 
+    object-position: center;
+    display: block;
+    margin: 5px 0;
 }
