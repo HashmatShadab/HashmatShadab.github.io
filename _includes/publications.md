@@ -8,7 +8,7 @@
 
   <div class="col-sm-3 abbr" style="flex: 0 0 25%; max-width: 25%; padding-right: 15px;">
     <img src="assets/img/ReACT-CLIP.png" class="teaser img-fluid z-depth-1" style="width: 100%; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-    <abbr class="badge" style="display: block; margin-top: 5px; text-align: center; background-color: #043361; color: white; position: relative;">Under Review</abbr>
+    <abbr class="badge">Under Review</abbr>
   </div>
 
   <div class="col-sm-9" style="flex: 0 0 75%; max-width: 75%; padding-left: 10px;">
@@ -26,7 +26,7 @@
 
   <div class="col-sm-3 abbr" style="flex: 0 0 25%; max-width: 25%; padding-right: 15px;">
     <img src="assets/img/multilingual_mllms.png" class="teaser img-fluid z-depth-1" style="width: 100%; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-    <abbr class="badge" style="display: block; margin-top: 5px; text-align: center; background-color: #043361; color: white; position: relative;">Under Review</abbr>
+    <abbr class="badge">Under Review</abbr>
   </div>
 
   <div class="col-sm-9" style="flex: 0 0 75%; max-width: 75%; padding-left: 10px;">
@@ -45,7 +45,7 @@
 
   <div class="col-sm-3 abbr" style="flex: 0 0 25%; max-width: 25%; padding-right: 15px;">
     <img src="assets/img/robust_mllm.png" class="teaser img-fluid z-depth-1" style="width: 100%; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-    <abbr class="badge" style="display: block; margin-top: 5px; text-align: center; background-color: #043361; color: white; position: relative;">Under Review</abbr>
+    <abbr class="badge">Under Review</abbr>
   </div>
 
   <div class="col-sm-9" style="flex: 0 0 75%; max-width: 75%; padding-left: 10px;">
@@ -64,7 +64,7 @@
 
   <div class="col-sm-3 abbr" style="flex: 0 0 25%; max-width: 25%; padding-right: 15px;">
     <img src="assets/img/tpt_defense.png" class="teaser img-fluid z-depth-1" style="width: 100%; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-    <abbr class="badge" style="display: block; margin-top: 5px; text-align: center; background-color: #043361; color: white; position: relative;">Under Review</abbr>
+    <abbr class="badge">Under Review</abbr>
   </div>
 
   <div class="col-sm-9" style="flex: 0 0 75%; max-width: 75%; padding-left: 10px;">
@@ -83,7 +83,7 @@
 
   <div class="col-sm-3 abbr" style="flex: 0 0 25%; max-width: 25%; padding-right: 15px;">
     <img src="assets/img/CORTEX_concept_diagram.png" class="teaser img-fluid z-depth-1" style="width: 100%; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-    <abbr class="badge" style="display: block; margin-top: 5px; text-align: center; background-color: #043361; color: white; position: relative;">MICCAIW 2026</abbr>
+    <abbr class="badge">MICCAIW 2026</abbr>
   </div>
 
   <div class="col-sm-9" style="flex: 0 0 75%; max-width: 75%; padding-left: 10px;">
@@ -103,7 +103,7 @@
 
   <div class="col-sm-3 abbr" style="flex: 0 0 25%; max-width: 25%; padding-right: 15px;">
     <img src="assets/img/HistVL.png" class="teaser img-fluid z-depth-1" style="width: 100%; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-    <abbr class="badge" style="display: block; margin-top: 5px; text-align: center; background-color: #043361; color: white; position: relative;">MIUA 2026</abbr>
+    <abbr class="badge">MIUA 2026</abbr>
   </div>
 
   <div class="col-sm-9" style="flex: 0 0 75%; max-width: 75%; padding-left: 10px;">
@@ -124,7 +124,7 @@
 
   <div class="col-sm-3 abbr" style="flex: 0 0 25%; max-width: 25%; padding-right: 15px;">
     <img src="assets/img/face_guardian_main_diagram.png" class="teaser img-fluid z-depth-1" style="width: 100%; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-    <abbr class="badge" style="display: block; margin-top: 5px; text-align: center; background-color: #043361; color: white; position: relative;">SaTML 2026</abbr>
+    <abbr class="badge">SaTML 2026</abbr>
   </div>
 
   <div class="col-sm-9" style="flex: 0 0 75%; max-width: 75%; padding-left: 10px;">
@@ -143,7 +143,7 @@
 
   <div class="col-sm-3 abbr" style="flex: 0 0 25%; max-width: 25%; padding-right: 15px;">
     <img src="assets/img/robust_llava.png" class="teaser img-fluid z-depth-1" style="width: 100%; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-    <abbr class="badge" style="display: block; margin-top: 5px; text-align: center; background-color: #043361; color: white; position: relative;">ICCVW 2025</abbr>
+    <abbr class="badge">ICCVW 2025</abbr>
   </div>
 
   <div class="col-sm-9" style="flex: 0 0 75%; max-width: 75%; padding-left: 10px;">
@@ -165,7 +165,7 @@
 
   <div class="col-sm-3 abbr" style="flex: 0 0 25%; max-width: 25%; padding-right: 15px;">
     <img src="assets/img/hsat.png" class="teaser img-fluid z-depth-1" style="width: 100%; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-    <abbr class="badge" style="display: block; margin-top: 5px; text-align: center; background-color: #043361; color: white; position: relative;">MICCAI 2025</abbr>
+    <abbr class="badge">MICCAI 2025</abbr>
   </div>
 
   <div class="col-sm-9" style="flex: 0 0 75%; max-width: 75%; padding-left: 10px;">
@@ -187,7 +187,7 @@
 
   <div class="col-sm-3 abbr" style="flex: 0 0 25%; max-width: 25%; padding-right: 15px;">
     <img src="assets/img/Mamba_robustness.jpg" class="teaser img-fluid z-depth-1" style="width: 100%; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-    <abbr class="badge" style="display: block; margin-top: 5px; text-align: center; background-color: #043361; color: white; position: relative;">CVPRW 2025</abbr>
+    <abbr class="badge">CVPRW 2025</abbr>
   </div>
 
   <div class="col-sm-9" style="flex: 0 0 75%; max-width: 75%; padding-left: 10px;">
@@ -208,7 +208,7 @@
 
   <div class="col-sm-3 abbr" style="flex: 0 0 25%; max-width: 25%; padding-right: 15px;">
     <img src="assets/img/objectcompose.jpg" class="teaser img-fluid z-depth-1" style="width: 100%; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-    <abbr class="badge" style="display: block; margin-top: 5px; text-align: center; background-color: #043361; color: white; position: relative;">ACCV 2024</abbr>
+    <abbr class="badge">ACCV 2024</abbr>
   </div>
 
   <div class="col-sm-9" style="flex: 0 0 75%; max-width: 75%; padding-left: 10px;">
@@ -230,7 +230,7 @@
 
   <div class="col-sm-3 abbr" style="flex: 0 0 25%; max-width: 25%; padding-right: 15px;">
     <img src="assets/img/volumetric_bmvc2024.png" class="teaser img-fluid z-depth-1" style="width: 100%; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-    <abbr class="badge" style="display: block; margin-top: 5px; text-align: center; background-color: #043361; color: white; position: relative;">BMVC 2024</abbr>
+    <abbr class="badge">BMVC 2024</abbr>
   </div>
 
   <div class="col-sm-9" style="flex: 0 0 75%; max-width: 75%; padding-left: 10px;">
@@ -251,7 +251,7 @@
 
   <div class="col-sm-3 abbr" style="flex: 0 0 25%; max-width: 25%; padding-right: 15px;">
     <img src="assets/img/apr.png" class="teaser img-fluid z-depth-1" style="width: 100%; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-    <abbr class="badge" style="display: block; margin-top: 5px; text-align: center; background-color: #043361; color: white; position: relative;">BMVC 2022</abbr>
+    <abbr class="badge">BMVC 2022</abbr>
   </div>
 
   <div class="col-sm-9" style="flex: 0 0 75%; max-width: 75%; padding-left: 10px;">
