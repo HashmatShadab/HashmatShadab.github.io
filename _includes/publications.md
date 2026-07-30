@@ -92,7 +92,7 @@
     <div class="periodical" style="font-style: italic; color: #666; font-size: 0.9em; margin-top: 3px;">SAFER Workshop: Stable Adaptation and Faithful Evaluation of Reasoning in Medical Foundation Models (MICCAI) 2026</div>
     <div class="links" style="margin-top: 8px;">
       <a href="https://arxiv.org/abs/2606.27264" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none;">PDF</a>
-      <span style="margin-left: 10px; color:#e74d3c; font-weight: 600; font-size: 0.9em;">Oral Presentation + Poster</span>
+      <span class="presentation-label">Oral Presentation + Poster</span>
     </div>
   </div>
 </div>
@@ -113,7 +113,7 @@
     <div class="links" style="margin-top: 8px;">
       <a href="https://arxiv.org/abs/2503.12990" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none;">PDF</a>
       <a href="https://github.com/musk007/Histopathology_Benchmark" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none; margin-left: 5px;">Code</a>
-      <span style="margin-left: 10px; color:#e74d3c; font-weight: 600; font-size: 0.9em;">Oral Presentation + Poster</span>
+      <span class="presentation-label">Oral Presentation + Poster</span>
     </div>
   </div>
 </div>
@@ -154,7 +154,7 @@
       <a href="https://arxiv.org/abs/2502.01576" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none;">PDF</a>
       <a href="https://github.com/HashmatShadab/Robust-LLaVA" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none; margin-left: 5px;">Code</a>
       <a href="https://hashmatshadab.github.io/Robust-LLaVA/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none; margin-left: 5px;">Project</a>
-      <span style="margin-left: 10px; color:#e74d3c; font-weight: 600; font-size: 0.9em;">Oral Presentation + Poster</span>
+      <span class="presentation-label">Oral Presentation + Poster</span>
     </div>
   </div>
 </div>
@@ -176,7 +176,7 @@
       <a href="https://arxiv.org/abs/2503.10629" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none;">PDF</a>
       <a href="https://github.com/HashmatShadab/HSAT" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none; margin-left: 5px;">Code</a>
       <a href="https://hashmatshadab.github.io/HSAT/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none; margin-left: 5px;">Project</a>
-      <span style="margin-left: 10px; color:#e74d3c; font-weight: 600; font-size: 0.9em;">Poster Presentation</span>
+      <span class="presentation-label">Poster Presentation</span>
     </div>
   </div>
 </div>
@@ -197,7 +197,7 @@
     <div class="links" style="margin-top: 8px;">
       <a href="https://arxiv.org/abs/2406.09407" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none;">PDF</a>
       <a href="https://github.com/HashmatShadab/MambaRobustness" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none; margin-left: 5px;">Code</a>
-      <span style="margin-left: 10px; color:#e74d3c; font-weight: 600; font-size: 0.9em;">Poster Presentation</span>
+      <span class="presentation-label">Poster Presentation</span>
     </div>
   </div>
 </div>
@@ -219,7 +219,7 @@
       <a href="https://arxiv.org/abs/2403.04701" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none;">PDF</a>
       <a href="https://github.com/Muhammad-Huzaifaa/ObjectCompose" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none; margin-left: 5px;">Code</a>
       <a href="https://muhammad-huzaifaa.github.io/ObjectCompose/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none; margin-left: 5px;">Project</a>
-      <span style="margin-left: 10px; color:#e74d3c; font-weight: 600; font-size: 0.9em;">Oral Presentation + Poster (Best Student Paper Runner-Up)</span>
+      <span class="presentation-label">Oral Presentation + Poster (Best Student Paper Runner-Up)</span>
     </div>
   </div>
 </div>
@@ -240,7 +240,7 @@
     <div class="links" style="margin-top: 8px;">
       <a href="https://arxiv.org/abs/2406.08486" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none;">PDF</a>
       <a href="https://github.com/HashmatShadab/Robustness-of-Volumetric-Medical-Segmentation-Models" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none; margin-left: 5px;">Code</a>
-      <span style="margin-left: 10px; color:#e74d3c; font-weight: 600; font-size: 0.9em;">Poster Presentation</span>
+      <span class="presentation-label">Poster Presentation</span>
     </div>
   </div>
 </div>
@@ -261,7 +261,7 @@
     <div class="links" style="margin-top: 8px;">
       <a href="https://arxiv.org/abs/2207.08803" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none;">PDF</a>
       <a href="https://github.com/HashmatShadab/APR" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none; margin-left: 5px;">Code</a>
-      <span style="margin-left: 10px; color:#e74d3c; font-weight: 600; font-size: 0.9em;">Oral Presentation + Poster</span>
+      <span class="presentation-label">Oral Presentation + Poster</span>
     </div>
   </div>
 </div>
