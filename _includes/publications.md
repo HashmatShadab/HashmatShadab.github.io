@@ -7,7 +7,7 @@
 <div class="pub-row" style="display: flex; flex-direction: row; margin-bottom: 25px; align-items: flex-start;">
 
   <div class="col-sm-3 abbr" style="flex: 0 0 25%; max-width: 25%; padding-right: 15px; position: relative;">
-    <img src="assets/img/ReACT-CLIP.png" class="teaser img-fluid z-depth-1" style="width: 100%; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+    <img src="assets/img/ReACT-CLIP.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">Under Review</abbr>
   </div>
 
@@ -25,7 +25,7 @@
 <div class="pub-row" style="display: flex; flex-direction: row; margin-bottom: 25px; align-items: flex-start;">
 
   <div class="col-sm-3 abbr" style="flex: 0 0 25%; max-width: 25%; padding-right: 15px; position: relative;">
-    <img src="assets/img/multilingual_mllms.png" class="teaser img-fluid z-depth-1" style="width: 100%; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+    <img src="assets/img/multilingual_mllms.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">Under Review</abbr>
   </div>
 
@@ -44,7 +44,7 @@
 <div class="pub-row" style="display: flex; flex-direction: row; margin-bottom: 25px; align-items: flex-start;">
 
   <div class="col-sm-3 abbr" style="flex: 0 0 25%; max-width: 25%; padding-right: 15px; position: relative;">
-    <img src="assets/img/robust_mllm.png" class="teaser img-fluid z-depth-1" style="width: 100%; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+    <img src="assets/img/robust_mllm.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">Under Review</abbr>
   </div>
 
@@ -63,7 +63,7 @@
 <div class="pub-row" style="display: flex; flex-direction: row; margin-bottom: 25px; align-items: flex-start;">
 
   <div class="col-sm-3 abbr" style="flex: 0 0 25%; max-width: 25%; padding-right: 15px; position: relative;">
-    <img src="assets/img/tpt_defense.png" class="teaser img-fluid z-depth-1" style="width: 100%; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+    <img src="assets/img/tpt_defense.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">Under Review</abbr>
   </div>
 
@@ -82,7 +82,7 @@
 <div class="pub-row" style="display: flex; flex-direction: row; margin-bottom: 25px; align-items: flex-start;">
 
   <div class="col-sm-3 abbr" style="flex: 0 0 25%; max-width: 25%; padding-right: 15px; position: relative;">
-    <img src="assets/img/CORTEX_concept_diagram.png" class="teaser img-fluid z-depth-1" style="width: 100%; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+    <img src="assets/img/CORTEX_concept_diagram.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">MICCAIW 2026</abbr>
   </div>
 
@@ -102,7 +102,7 @@
 <div class="pub-row" style="display: flex; flex-direction: row; margin-bottom: 25px; align-items: flex-start;">
 
   <div class="col-sm-3 abbr" style="flex: 0 0 25%; max-width: 25%; padding-right: 15px; position: relative;">
-    <img src="assets/img/HistVL.png" class="teaser img-fluid z-depth-1" style="width: 100%; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+    <img src="assets/img/HistVL.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">MIUA 2026</abbr>
   </div>
 
@@ -123,7 +123,7 @@
 <div class="pub-row" style="display: flex; flex-direction: row; margin-bottom: 25px; align-items: flex-start;">
 
   <div class="col-sm-3 abbr" style="flex: 0 0 25%; max-width: 25%; padding-right: 15px; position: relative;">
-    <img src="assets/img/face_guardian_main_diagram.png" class="teaser img-fluid z-depth-1" style="width: 100%; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+    <img src="assets/img/face_guardian_main_diagram.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">SaTML 2026</abbr>
   </div>
 
@@ -142,7 +142,7 @@
 <div class="pub-row" style="display: flex; flex-direction: row; margin-bottom: 25px; align-items: flex-start;">
 
   <div class="col-sm-3 abbr" style="flex: 0 0 25%; max-width: 25%; padding-right: 15px; position: relative;">
-    <img src="assets/img/robust_llava.png" class="teaser img-fluid z-depth-1" style="width: 100%; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+    <img src="assets/img/robust_llava.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">ICCVW 2025</abbr>
   </div>
 
@@ -164,7 +164,7 @@
 <div class="pub-row" style="display: flex; flex-direction: row; margin-bottom: 25px; align-items: flex-start;">
 
   <div class="col-sm-3 abbr" style="flex: 0 0 25%; max-width: 25%; padding-right: 15px; position: relative;">
-    <img src="assets/img/hsat.png" class="teaser img-fluid z-depth-1" style="width: 100%; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+    <img src="assets/img/hsat.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">MICCAI 2025</abbr>
   </div>
 
@@ -186,7 +186,7 @@
 <div class="pub-row" style="display: flex; flex-direction: row; margin-bottom: 25px; align-items: flex-start;">
 
   <div class="col-sm-3 abbr" style="flex: 0 0 25%; max-width: 25%; padding-right: 15px; position: relative;">
-    <img src="assets/img/Mamba_robustness.jpg" class="teaser img-fluid z-depth-1" style="width: 100%; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+    <img src="assets/img/Mamba_robustness.jpg" class="teaser img-fluid z-depth-1">
     <abbr class="badge">CVPRW 2025</abbr>
   </div>
 
@@ -207,7 +207,7 @@
 <div class="pub-row" style="display: flex; flex-direction: row; margin-bottom: 25px; align-items: flex-start;">
 
   <div class="col-sm-3 abbr" style="flex: 0 0 25%; max-width: 25%; padding-right: 15px; position: relative;">
-    <img src="assets/img/objectcompose.jpg" class="teaser img-fluid z-depth-1" style="width: 100%; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+    <img src="assets/img/objectcompose.jpg" class="teaser img-fluid z-depth-1">
     <abbr class="badge">ACCV 2024</abbr>
   </div>
 
@@ -229,7 +229,7 @@
 <div class="pub-row" style="display: flex; flex-direction: row; margin-bottom: 25px; align-items: flex-start;">
 
   <div class="col-sm-3 abbr" style="flex: 0 0 25%; max-width: 25%; padding-right: 15px; position: relative;">
-    <img src="assets/img/volumetric_bmvc2024.png" class="teaser img-fluid z-depth-1" style="width: 100%; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+    <img src="assets/img/volumetric_bmvc2024.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">BMVC 2024</abbr>
   </div>
 
@@ -250,7 +250,7 @@
 <div class="pub-row" style="display: flex; flex-direction: row; margin-bottom: 25px; align-items: flex-start;">
 
   <div class="col-sm-3 abbr" style="flex: 0 0 25%; max-width: 25%; padding-right: 15px; position: relative;">
-    <img src="assets/img/apr.png" class="teaser img-fluid z-depth-1" style="width: 100%; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+    <img src="assets/img/apr.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">BMVC 2022</abbr>
   </div>
 
