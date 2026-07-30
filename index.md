@@ -4,31 +4,31 @@ layout: homepage
 
 ## About Me
 
-I am currently a PhD Candidate at [Mohamed Bin Zayed University of Artificial Intelligence (MBZUAI)](http://www.mbzuai.ac.ae) and before that have  obtained my Masters degree in computer vision from the same institution. At MBZUAI, I am affliated with the [Intelligent Visual Analytics Lab (IVAL)](https://www.ival-mbzuai.com/) where I am primarily advised by [Dr. Salman Khan](https://salman-h-khan.github.io/) and have a close collaboration with [Dr. Muzammal Naseer](https://muzammal-naseer.com/). My secondary advisor is [Dr. Fahad Khan](https://sites.google.com/view/fahadkhans/home). 
+I am a PhD Candidate at [Mohamed Bin Zayed University of Artificial Intelligence (MBZUAI)](http://www.mbzuai.ac.ae) in the [Intelligent Visual Analytics Lab (IVAL)](https://www.ival-mbzuai.com/). I am primarily advised by [Dr. Salman Khan](https://salman-h-khan.github.io/) and [Dr. Muzammal Naseer](https://muzammal-naseer.com/), with [Dr. Fahad Khan](https://sites.google.com/view/fahadkhans/home) as my secondary advisor.
+
+I hold a Master's degree in Computer Vision from MBZUAI and an undergraduate degree in Electronics and Communication Engineering from the [National Institute of Technology (NIT) Srinagar](https://nitsri.ac.in/). Previously, I was a researcher at the [Indian Institute of Science (IISc)](https://iisc.ac.in/).
 
 
-I received my undergraduate degree in Electronics and Communication Engineering with a minor in Computer Science from the [National Institute of Technology (NIT) Srinagar, India](https://nitsri.ac.in/). 
-After graduation, I worked as a researcher at Indian Institute of Science [IISc](https://iisc.ac.in/), before transitioning into academia in 2020 and joining MBZUAI as a Masters Student under [Dr. Salman Khan](https://salman-h-khan.github.io/).
+## Education
 
-
-<div style="display: flex; align-items: center; justify-content: center; gap: 20px;">
-    <div style="text-align: center;">
-        <img src="assets/img/MBZUAI_Logo_EN_Black.jpg" alt="MBZUAI" width="220">
-        <p>MBZUAI<br>(2021-Present)</p>
+<div class="education-container" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 40px; margin-top: 20px;">
+    <div style="text-align: center; flex: 1; min-width: 200px; max-width: 250px;">
+        <img src="assets/img/MBZUAI_Logo_EN_Black.jpg" alt="MBZUAI" style="width: 100%; height: auto;">
+        <p style="margin-top: 10px; font-weight: 500;">MBZUAI<br><span style="font-weight: 400; font-size: 0.9em;">(2021-Present)</span></p>
     </div>
-    <div style="text-align: center;">
-        <img src="assets/img/nit_logo.png" alt="nit" width="250">
-       <p style="margin-top: 3px;">NIT Srinagar<br>(2014-2018)</p>
+    <div style="text-align: center; flex: 1; min-width: 200px; max-width: 250px;">
+        <img src="assets/img/nit_logo.png" alt="NIT Srinagar" style="width: 100%; height: auto;">
+       <p style="margin-top: 10px; font-weight: 500;">NIT Srinagar<br><span style="font-weight: 400; font-size: 0.9em;">(2014-2018)</span></p>
     </div>
 </div>
 
-
-
 ## Research Interests
 
-My research focuses on the Safety and Reliability of AI, with a particular emphasis on understanding, evaluating, and enhancing the robustness of vision-based models.
+My research focuses on the **Safety and Reliability of AI**, with a particular emphasis on understanding, evaluating, and enhancing the **robustness of vision-based models**.
 
 ## News
+
+<div class="news-container" style="max-height: 350px; overflow-y: auto; padding-right: 15px; border-left: 3px solid #043361; padding-left: 20px; background-color: rgba(4, 51, 97, 0.02); border-radius: 0 8px 8px 0; margin: 20px 0;">
 - **[Jul. 2026]** Our new work **ReACT-CLIP** proposes a training-free test-time defense for CLIP that adapts its defensive strength based on the given sample, achieving high robust accuracy across attack strengths and beating the strongest prior test-time defense by up to 46.5%.
 - **[July 2026]** Our work **[CORTEX](https://arxiv.org/abs/2606.27264)** was accepted to the **[SAFER Workshop](https://safer-workshop.github.io/) at MICCAI 2026**, where it was **selected for an oral presentation**! 🎉
 - **[June 2026]** Our work **[HistoVL](https://arxiv.org/abs/2503.12990)** was accepted to **MIUA 2026**, where it was **selected for an oral presentation**! 🎉
@@ -45,6 +45,7 @@ My research focuses on the Safety and Reliability of AI, with a particular empha
 - **[Jan. 2023]** I joined MBZUAI as a PhD student in Computer Vision with full scholarship.
 - **[Sep. 2022]** Our work titled “[Adversarial Pixel Restoration as a Pretext Task for Transferable Perturbations](https://arxiv.org/abs/2207.08803)” got accepted at BMVC 2022 for **Oral Presentation (Top 9%)**! 🎉.
 - **[Jan. 2021]**  I joined MBZUAI as a Masters student in Computer Vision with full scholarship.
+</div>
 
 {% include publications.md %}
 
