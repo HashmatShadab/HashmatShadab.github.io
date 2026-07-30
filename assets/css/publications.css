@@ -119,24 +119,15 @@ blockquote {
 
 .presentation-label {
     margin-left: 10px;
-    color: #e74d3c;
-    font-weight: 700;
-    font-size: 0.85em;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    background-color: rgba(231, 77, 60, 0.1);
-    padding: 2px 8px;
-    border-radius: 4px;
-    border: 1px solid rgba(231, 77, 60, 0.2);
+    font-style: italic;
+    font-size: 0.9em;
     display: inline-block;
     vertical-align: middle;
 }
 
 @media (prefers-color-scheme: dark) {
     .presentation-label {
-        color: #ff6b6b;
-        background-color: rgba(255, 107, 107, 0.1);
-        border-color: rgba(255, 107, 107, 0.2);
+        /* Default text color will be inherited or handled by body dark mode */
     }
 }
 

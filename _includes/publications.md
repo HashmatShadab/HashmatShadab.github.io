@@ -15,7 +15,7 @@
     <div class="title" style="font-weight: 600; font-size: 1.1em; line-height: 1.3;"><a href="">ReACT-CLIP: Response-Aware Test-Time Defense for Vision-Language Models</a></div>
     <div class="author" style="margin-top: 5px; font-size: 0.95em;">Hashmat Shadab Malik, Toluwani Aremu, Samuele Poppi, Muzammal Naseer, Salman Khan</div>
     <div class="links" style="margin-top: 8px;">
-      <span class="presentation-label">Under Review</span>
+      <span class="presentation-label">(Under Review)</span>
     </div>
   </div>
 </div>
@@ -34,7 +34,7 @@
     <div class="author" style="margin-top: 5px; font-size: 0.95em;">Hashmat Shadab Malik, Muzammal Naseer, Salman Khan</div>
     <div class="links" style="margin-top: 8px;">
       <a href="https://arxiv.org/abs/2606.03793" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none;">PDF</a>
-      <span class="presentation-label">Under Review</span>
+      <span class="presentation-label">(Under Review)</span>
     </div>
   </div>
 </div>
@@ -53,7 +53,7 @@
     <div class="author" style="margin-top: 5px; font-size: 0.95em;">Hashmat Shadab Malik, Muzammal Naseer, Salman Khan</div>
     <div class="links" style="margin-top: 8px;">
       <a href="https://arxiv.org/abs/2606.03713" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none;">PDF</a>
-      <span class="presentation-label">Under Review</span>
+      <span class="presentation-label">(Under Review)</span>
     </div>
   </div>
 </div>
@@ -72,7 +72,7 @@
     <div class="author" style="margin-top: 5px; font-size: 0.95em;">Hashmat Shadab Malik, Muzammal Naseer, Salman Khan</div>
     <div class="links" style="margin-top: 8px;">
       <a href="https://arxiv.org/abs/2606.03730" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none;">PDF</a>
-      <span class="presentation-label">Under Review</span>
+      <span class="presentation-label">(Under Review)</span>
     </div>
   </div>
 </div>
@@ -92,7 +92,7 @@
     <div class="periodical" style="font-style: italic; color: #666; font-size: 0.9em; margin-top: 3px;">SAFER Workshop: Stable Adaptation and Faithful Evaluation of Reasoning in Medical Foundation Models (MICCAI) 2026</div>
     <div class="links" style="margin-top: 8px;">
       <a href="https://arxiv.org/abs/2606.27264" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none;">PDF</a>
-      <span class="presentation-label">Oral Presentation + Poster</span>
+      <span class="presentation-label">(Oral Presentation + Poster)</span>
     </div>
   </div>
 </div>
@@ -113,7 +113,7 @@
     <div class="links" style="margin-top: 8px;">
       <a href="https://arxiv.org/abs/2503.12990" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none;">PDF</a>
       <a href="https://github.com/musk007/Histopathology_Benchmark" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none; margin-left: 5px;">Code</a>
-      <span class="presentation-label">Oral Presentation + Poster</span>
+      <span class="presentation-label">(Oral Presentation + Poster)</span>
     </div>
   </div>
 </div>
@@ -132,7 +132,7 @@
     <div class="author" style="margin-top: 5px; font-size: 0.95em;">Fahad Shamshad, Hashmat Shadab Malik, Muzammal Naseer, Salman Khan, Karthik Nandakumar</div>
     <div class="periodical" style="font-style: italic; color: #666; font-size: 0.9em; margin-top: 3px;">4th IEEE Conference on Secure and Trustworthy Machine Learning (SaTML) 2026</div>
     <div class="links" style="margin-top: 8px;">
-      <span class="presentation-label">Oral Presentation + Poster</span>
+      <span class="presentation-label">(Oral Presentation + Poster)</span>
     </div>
   </div>
 </div>
@@ -154,7 +154,7 @@
       <a href="https://arxiv.org/abs/2502.01576" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none;">PDF</a>
       <a href="https://github.com/HashmatShadab/Robust-LLaVA" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none; margin-left: 5px;">Code</a>
       <a href="https://hashmatshadab.github.io/Robust-LLaVA/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none; margin-left: 5px;">Project</a>
-      <span class="presentation-label">Oral Presentation + Poster</span>
+      <span class="presentation-label">(Oral Presentation + Poster)</span>
     </div>
   </div>
 </div>
@@ -176,7 +176,7 @@
       <a href="https://arxiv.org/abs/2503.10629" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none;">PDF</a>
       <a href="https://github.com/HashmatShadab/HSAT" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none; margin-left: 5px;">Code</a>
       <a href="https://hashmatshadab.github.io/HSAT/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none; margin-left: 5px;">Project</a>
-      <span class="presentation-label">Poster Presentation</span>
+      <span class="presentation-label">(Poster Presentation)</span>
     </div>
   </div>
 </div>
@@ -197,7 +197,7 @@
     <div class="links" style="margin-top: 8px;">
       <a href="https://arxiv.org/abs/2406.09407" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none;">PDF</a>
       <a href="https://github.com/HashmatShadab/MambaRobustness" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none; margin-left: 5px;">Code</a>
-      <span class="presentation-label">Poster Presentation</span>
+      <span class="presentation-label">(Poster Presentation)</span>
     </div>
   </div>
 </div>
@@ -219,7 +219,7 @@
       <a href="https://arxiv.org/abs/2403.04701" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none;">PDF</a>
       <a href="https://github.com/Muhammad-Huzaifaa/ObjectCompose" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none; margin-left: 5px;">Code</a>
       <a href="https://muhammad-huzaifaa.github.io/ObjectCompose/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none; margin-left: 5px;">Project</a>
-      <span class="presentation-label">Oral Presentation + Poster (Best Student Paper Runner-Up)</span>
+      <span class="presentation-label">(Oral Presentation + Poster (Best Student Paper Runner-Up))</span>
     </div>
   </div>
 </div>
@@ -240,7 +240,7 @@
     <div class="links" style="margin-top: 8px;">
       <a href="https://arxiv.org/abs/2406.08486" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none;">PDF</a>
       <a href="https://github.com/HashmatShadab/Robustness-of-Volumetric-Medical-Segmentation-Models" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none; margin-left: 5px;">Code</a>
-      <span class="presentation-label">Poster Presentation</span>
+      <span class="presentation-label">(Poster Presentation)</span>
     </div>
   </div>
 </div>
@@ -261,7 +261,7 @@
     <div class="links" style="margin-top: 8px;">
       <a href="https://arxiv.org/abs/2207.08803" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none;">PDF</a>
       <a href="https://github.com/HashmatShadab/APR" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none; margin-left: 5px;">Code</a>
-      <span class="presentation-label">Oral Presentation + Poster</span>
+      <span class="presentation-label">(Oral Presentation + Poster)</span>
     </div>
   </div>
 </div>
