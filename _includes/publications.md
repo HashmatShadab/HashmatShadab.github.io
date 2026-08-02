@@ -92,6 +92,7 @@
     <div class="periodical" style="font-style: italic; color: #666; font-size: 0.9em; margin-top: 3px;">SAFER Workshop: Stable Adaptation and Faithful Evaluation of Reasoning in Medical Foundation Models (MICCAI) 2026</div>
     <div class="links" style="margin-top: 8px;">
       <a href="https://arxiv.org/abs/2606.27264" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none;">PDF</a>
+      <a href="https://github.com/aneesurhashmi/cortex" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none; margin-left: 5px;">Code</a>
       <span class="presentation-label">(Oral Presentation + Poster)</span>
     </div>
   </div>
