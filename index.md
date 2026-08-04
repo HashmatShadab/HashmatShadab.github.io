@@ -29,7 +29,7 @@ My research focuses on the **Safety and Reliability of AI**, with a particular e
 ## News
 
 <div class="news-container" markdown="1" style="max-height: 350px; overflow-y: auto; padding-right: 15px; border-left: 3px solid #043361; padding-left: 20px; background-color: rgba(4, 51, 97, 0.02); border-radius: 0 8px 8px 0; margin: 20px 0;">
-- **[Jul. 2026]** Our new work **ReACT-CLIP** proposes a training-free test-time defense for CLIP that adapts its defensive strength based on the given sample, achieving high robust accuracy across attack strengths and beating the strongest prior test-time defense by up to 46.5%.
+- **[Jul. 2026]** Our new work **[ReACT-CLIP](https://arxiv.org/abs/2608.01067)** proposes a training-free test-time defense for CLIP that adapts its defensive strength based on the given sample, achieving high robust accuracy across attack strengths and beating the strongest prior test-time defense by up to 46.5%.
 - **[July 2026]** Our work **[CORTEX](https://arxiv.org/abs/2606.27264)** was accepted to the **[SAFER Workshop](https://safer-workshop.github.io/) at MICCAI 2026**, where it was **selected for an oral presentation**! 🎉
 - **[June 2026]** Our work **[HistoVL](https://arxiv.org/abs/2503.12990)** was accepted to **MIUA 2026**, where it was **selected for an oral presentation**! 🎉
 - **[December 2025]** Our work **FaceGuardian** was accepted to **SaTML 2026**, where it was **selected for both an oral and poster presentation**! 🎉

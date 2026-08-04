@@ -12,9 +12,11 @@
   </div>
 
   <div class="col-sm-9" style="flex: 0 0 75%; max-width: 75%; padding-left: 10px;">
-    <div class="title" style="font-weight: 600; font-size: 1.1em; line-height: 1.3;"><a href="">ReACT-CLIP: Response-Aware Test-Time Defense for Vision-Language Models</a></div>
+    <div class="title" style="font-weight: 600; font-size: 1.1em; line-height: 1.3;"><a href="https://arxiv.org/abs/2608.01067">ReACT-CLIP: Response-Aware Test-Time Defense for Vision-Language Models</a></div>
     <div class="author" style="margin-top: 5px; font-size: 0.95em;">Hashmat Shadab Malik, Toluwani Aremu, Samuele Poppi, Muzammal Naseer, Salman Khan</div>
     <div class="links" style="margin-top: 8px;">
+      <a href="https://arxiv.org/abs/2608.01067" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none;">PDF</a>
+      <a href="https://github.com/HashmatShadab/ReACT-CLIP" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none; margin-left: 5px;">Code</a>
       <span class="presentation-label">(Under Review)</span>
     </div>
   </div>
