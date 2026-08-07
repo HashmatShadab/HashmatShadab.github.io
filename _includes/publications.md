@@ -28,15 +28,16 @@
 
   <div class="col-sm-3 abbr" style="padding-right: 15px;">
     <img src="assets/img/multilingual_mllms.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">Under Review</abbr>
+    <abbr class="badge">BMVC 2026</abbr>
   </div>
 
   <div class="col-sm-9" style="flex: 0 0 75%; max-width: 75%; padding-left: 10px;">
     <div class="title" style="font-weight: 600; font-size: 1.1em; line-height: 1.3;"><a href="https://arxiv.org/abs/2606.03793">Exploring Adversarial Robustness and Safety Alignment in Multilingual Multi-Modal Large Language Models</a></div>
     <div class="author" style="margin-top: 5px; font-size: 0.95em;">Hashmat Shadab Malik, Muzammal Naseer, Salman Khan</div>
+    <div class="periodical" style="font-style: italic; color: #666; font-size: 0.9em; margin-top: 3px;">The 37th British Machine Vision Conference (BMVC) 2026</div>
     <div class="links" style="margin-top: 8px;">
       <a href="https://arxiv.org/abs/2606.03793" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none;">PDF</a>
-      <span class="presentation-label">(Under Review)</span>
+      <span class="presentation-label">(Poster Presentation)</span>
     </div>
   </div>
 </div>
@@ -47,15 +48,16 @@
 
   <div class="col-sm-3 abbr" style="padding-right: 15px;">
     <img src="assets/img/robust_mllm.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">Under Review</abbr>
+    <abbr class="badge">BMVC 2026</abbr>
   </div>
 
   <div class="col-sm-9" style="flex: 0 0 75%; max-width: 75%; padding-left: 10px;">
     <div class="title" style="font-weight: 600; font-size: 1.1em; line-height: 1.3;"><a href="https://arxiv.org/abs/2606.03713">Investigating Adversarial Robustness of Multi-modal Large Language Models</a></div>
     <div class="author" style="margin-top: 5px; font-size: 0.95em;">Hashmat Shadab Malik, Muzammal Naseer, Salman Khan</div>
+    <div class="periodical" style="font-style: italic; color: #666; font-size: 0.9em; margin-top: 3px;">The 37th British Machine Vision Conference (BMVC) 2026</div>
     <div class="links" style="margin-top: 8px;">
       <a href="https://arxiv.org/abs/2606.03713" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none;">PDF</a>
-      <span class="presentation-label">(Under Review)</span>
+      <span class="presentation-label">(Poster Presentation)</span>
     </div>
   </div>
 </div>
@@ -66,15 +68,16 @@
 
   <div class="col-sm-3 abbr" style="padding-right: 15px;">
     <img src="assets/img/tpt_defense.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">Under Review</abbr>
+    <abbr class="badge">BMVC 2026</abbr>
   </div>
 
   <div class="col-sm-9" style="flex: 0 0 75%; max-width: 75%; padding-left: 10px;">
     <div class="title" style="font-weight: 600; font-size: 1.1em; line-height: 1.3;"><a href="https://arxiv.org/abs/2606.03730">Beyond False Stability: High-Noise Drift Gating for Test-Time Adversarial Defenses in Vision-Language Models</a></div>
     <div class="author" style="margin-top: 5px; font-size: 0.95em;">Hashmat Shadab Malik, Muzammal Naseer, Salman Khan</div>
+    <div class="periodical" style="font-style: italic; color: #666; font-size: 0.9em; margin-top: 3px;">The 37th British Machine Vision Conference (BMVC) 2026</div>
     <div class="links" style="margin-top: 8px;">
       <a href="https://arxiv.org/abs/2606.03730" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none;">PDF</a>
-      <span class="presentation-label">(Under Review)</span>
+      <span class="presentation-label">(Poster Presentation)</span>
     </div>
   </div>
 </div>
