@@ -130,7 +130,7 @@
 
   <div class="col-sm-3 abbr" style="padding-right: 15px;">
     <img src="assets/img/face_guardian_main_diagram.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">SaTML 2026</abbr>
+    <abbr class="badge">SaTML 2026, ECCVW 2026</abbr>
   </div>
 
   <div class="col-sm-9" style="flex: 0 0 75%; max-width: 75%; padding-left: 10px;">
@@ -138,7 +138,7 @@
     <div class="author" style="margin-top: 5px; font-size: 0.95em;">Fahad Shamshad, Hashmat Shadab Malik, Muzammal Naseer, Salman Khan, Karthik Nandakumar</div>
     <div class="periodical" style="font-style: italic; color: #666; font-size: 0.9em; margin-top: 3px;">4th IEEE Conference on Secure and Trustworthy Machine Learning (SaTML) 2026</div>
     <div class="links" style="margin-top: 8px;">
-      <span class="presentation-label">(Oral Presentation + Poster)</span>
+      <span class="presentation-label">(Oral Presentation + Poster) (Best  Paper Award at ECCVW 2026)</span>
     </div>
   </div>
 </div>
