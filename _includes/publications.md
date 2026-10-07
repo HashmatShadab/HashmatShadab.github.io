@@ -134,10 +134,11 @@
   </div>
 
   <div class="col-sm-9" style="flex: 0 0 75%; max-width: 75%; padding-left: 10px;">
-    <div class="title" style="font-weight: 600; font-size: 1.1em; line-height: 1.3;"><a href="">FaceGuardian: Protecting Facial Biometrics from Malicious Generative Editing via Latent Optimization</a></div>
+    <div class="title" style="font-weight: 600; font-size: 1.1em; line-height: 1.3;"><a href="https://ieeexplore.ieee.org/document/11691709">FaceGuardian: Protecting Facial Biometrics from Malicious Generative Editing via Latent Optimization</a></div>
     <div class="author" style="margin-top: 5px; font-size: 0.95em;">Fahad Shamshad, Hashmat Shadab Malik, Muzammal Naseer, Salman Khan, Karthik Nandakumar</div>
     <div class="periodical" style="font-style: italic; color: #666; font-size: 0.9em; margin-top: 3px;">4th IEEE Conference on Secure and Trustworthy Machine Learning (SaTML) 2026</div>
     <div class="links" style="margin-top: 8px;">
+      <a href="https://ieeexplore.ieee.org/document/11691709" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid #043361; padding: 2px 8px; border-radius: 4px; color: #043361; text-decoration: none;">PDF</a>
       <span class="presentation-label">(Oral Presentation + Poster) (Best  Paper Award at ECCVW 2026)</span>
     </div>
   </div>
